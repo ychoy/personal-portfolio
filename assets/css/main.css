@@ -29,7 +29,7 @@ h3 {
 header {
   float: left;
   margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
+  padding: 0 0 0 0;
   width: 100%;
 }
 
@@ -40,28 +40,33 @@ header {
 
 
 h1 {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
+  font-family: 'Open Sans', sans-serif;
+  margin: -5px 0 0;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 
 h2 {
-  font-size: 0.75em;
+  font-size: 1.75em;
   margin: -5px 0 0;
   font-weight: normal;
 }
 
-
+h3 {
+  font-size: 1.35em;
+  font-weight: 700;
+  text-align: center;
+  color: #20b2aa;
+}
 /* NAVIGATION */
 
 nav {
-  text-align: center;
+  text-align: right;
   padding: 10px 0;
-  margin: 20px 0 0;
-
+  margin: 5px 0 0;
 }
 
 nav ul {
@@ -71,15 +76,14 @@ nav ul {
 
 }
 
-
 nav li {
   display: inline-block;
 }
 
 nav a {
   color: white;
-  font-weight: 800;
-  padding: 15px 10px;
+  font-weight: 700;
+  padding: 10px 10px;
 }
 
 /* FOOTER */
@@ -92,7 +96,6 @@ footer {
   color: #ccc;
 }
 
-
 .social-icon {
   width: 20px;
   height: 20px;
@@ -102,61 +105,74 @@ footer {
 
 /* PAGE: ABOUT */
 
-
 .profile-photo {
   display: block;
-  max-width: 150px;
+  float: both;
+  max-width: 200px;
   margin: 0 auto 30px;
-  border-radius: 100%;
+	border-radius: 50%;
 }
 
 /* PAGE: CONTACT
  */
 
-.contact-info {
+ nav a {
+   color: white;
+   font-weight: 700;
+   padding: 10px 10px;
+ }
+
+.contact {
+  text-align: left;
+  padding: 10px 0;
+  margin: 5px 0 0;
+}
+
+.contact ul {
   list-style: none;
+  margin: 0 10px;
   padding: 0;
-  margin: 0;
-  font-size: 0.9em;
 }
 
-
-.contact-info a {
+ul#contact-info a {
   display: block;
-  float: left;
-  min-height: 20px;
   background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+  background-size: 25px 25px;
+  padding: 10px 10px;
+  margin: 10px;
 }
 
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
+ul#contact-info li.github a {
+  background-image: url('../img/github_logo.png');
 
 }
 
-.contact-info li.mail a {
+ul#contact-info li.mail a {
   background-image: url('../img/mail.png');
 
 }
 
-.contact-info li.twitter a {
+ul#contact-info li.twitter a {
   background-image: url('../img/twitter.png');
+
+}
+
+ul#contact-info li.linkedin a {
+  background-image: url('../img/linkedin_logo.png');
 
 }
 
 /* PAGE: PORTFOLIO
  */
 
+
 #gallery {
   margin: 0;
   padding: 0;
   list-style: none;
 
-
 }
-
+/*
 #gallery li {
   float: left;
   width: 45%;
@@ -173,7 +189,7 @@ footer {
   color: #bdc3c7;
 
 }
-
+*/
 
 /*
 COLORS
@@ -184,26 +200,22 @@ COLORS
 
 body {
   background-color:: #fff;
-  color: #999;
+  color: #2a1513;
 }
 
-
-/* green header */
-
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #015f57;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #015f57;
 }
 
 /* logo text */
 
 h1, h2 {
-  color: #fff;
+  color: #1d7873;
 }
 
 

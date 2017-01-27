@@ -13,170 +13,110 @@
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <!--Bootstrap-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  <link rel="icon" type="image/png" href="assets/img/GA_favicon.png">
   <!-- fonts --->
-  <link href='https://fonts.googleapis.com/css?family=Changa+One:400,400italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600,600italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
+  <div class="container">
+	<!-- Header -->
   <header>
-    <a href="index.html" id="logo">
-      <h1> Yan Yin Choy </h1>
-      <h2> Programming Student </h2>
-    </a>
-  </header>
     <nav>
       <ul>
-        <li><a href="#index" >My Work</a></li>
+        <li><a href="#index">My Work</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+  </header>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+    <!-- Portfolio Flex Box -->
+  <div id="wrapper">
+    <img class="profile-photo" src="assets/img/YanYinChoy_1.png" alt="Photograph of Yan Yin Choy" class="img-circle">>
+      <h1> Yan Yin Choy </h1>
+      <h3> Full Stack Web Developer </h3>
+      <!--
+      <section id="index">
+         <ul id="gallery">
+           <ul class="flex-container">
+              <li class="flex-item">Memory Card Game</li>
+              <li class="flex-item">Roshambo</li>
+              <li class="flex-item">Super Rentals</li>
+              <li class="flex-item">Coming Soon</li>
+              <li class="flex-item">Coming Soon</li>
+              <li class="flex-item">Coming Soon</li>
+            </ul>
+        </ul>
+      </section>
+      -->
 
-                    <div id="paulface"></div>
-                    <div class="intro-text">
-                        <span class="name">Paul Kim</span>
-                        <hr class="star-light">
-                        <span class="skills"> Full Stack Web Developer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+      <!-- Portfolio -->
+     <div class ="container">
+	    <div class="row">
+  			<div class="col-sm-6 col-md-4">
+    			<div class="thumbnail">
+      			<img src="https://media.giphy.com/media/5xtDarIhnyHeUi7Lgxa/giphy.gif" alt="...">
+      				<div class="caption">
+        				<h3>Memory Card Game</h3>
+        					<p>...</p>
+        					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col-sm-6 col-md-4">
+    			<div class="thumbnail">
+      			<img src="https://media.giphy.com/media/A9lgUYVqLeRb2/giphy.gif" alt="...">
+      				<div class="caption">
+        				<h3>Roshambo</h3>
+        					<p>...</p>
+        					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col-sm-6 col-md-4">
+    			<div class="thumbnail">
+      			<img src="https://media.giphy.com/media/3o6ozAxsUHHV2Kmy7m/giphy.gif" alt="...">
+      				<div class="caption">
+        				<h3>Super Rentals</h3>
+        					<p>...</p>
+        					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      				</div>
+    			</div>
+  			</div>
+			</div>
+    </div>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://paulsbkim.bitballoon.com/#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="./practice_files/shia.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://paulsbkim.bitballoon.com/#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="./practice_files/belayme.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://paulsbkim.bitballoon.com/#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-
-                            </div>
-                        </div>
-                        <img src="./practice_files/newsly.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://paulsbkim.bitballoon.com/#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="./practice_files/bakesale.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://paulsbkim.bitballoon.com/#portfolioModal5" class="portfolio-link">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="./practice_files/ffffff.png&amp;text=Coming+Soon" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 portfolio-item">
-                    <a href="http://paulsbkim.bitballoon.com/#portfolioModal6" class="portfolio-link">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                       <img src="./practice_files/ffffff.png&amp;text=Coming+Soon" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-         </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>I am a junior full stack web developer looking for opportunities to refine my newly learned skills and create great products. Through self-teaching and General Assembly's 12 week Web Development Immersive I am knowledgable in full stack in JavaScript and Ruby. I am also skilled in command line,  using Git/GitHub, prototyping, and authentication/authorization.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- About Section -->
+    <div class="container"
+      <section id="about">
+        <h3>About</h3>
+        <p> This is my developer portfolio to feature all my favorite projects. As a student at General Assembly's web development immersive program, I am learning full stack development in Javascript and Ruby.</p>
+        <p> Prior to web development, I worked for nonprofits and the government. I was inspired to pursue web development because of my work and leadership in creating and managing public-private partnerships with local government departments, advocating for open data policy with Code for San José, and developing new leaders as Co-Director of New Leaders Council Silicon Valley.</p>
+        <p> I am seeking opportunities to use my programming skills and apply my cross-functional leadership skills to build great products.</p>
+      </section>
+    </div>
 
     <!-- Contact Section -->
-    </section id="secondary">
-      <h3>Contact Me</h3>
-      <ul class="contact-info">
-        <li class="mail"><a href="mailto:yanyinchoy@gmail.com">yanyinchoy@gmail.com </a></li>
-        <li class="github"><a href="https://github.com/ychoy">github</i></a>
-    </li>
-
-        <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=yanyinchoy">@yanyinchoy</a></li>
-      </ul>
-    </section>
-
-
-    <footer>
-      <a href="http://twitter.com/yanyinchoy"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"</a>
-      <a href="http://facebook.com/yanyinchoy"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"</a>
-      <a href="http://linkedin.com/in/yanyinchoy"><img src="img/linkedin logo.png" alt="Linked In Logo" class="social-icon"</a>
-  <p>&copy; 2016 Yan Yin Choy.</p>
-
-     </footer>
-</div>
-</body>
+    <div class="container">
+      <section class="contact">
+        <h3>Contact Me</h3>
+        <ul id ="contact-info">
+          <li class="mail"><a href="mailto:yanyinchoy@gmail.com">Email</a></li>
+          <li class="github"><a href="https://github.com/ychoy">Github</a></li>
+          <li class="linkedin"><a href="http://linkedin.com/in/yanyinchoy">LinkedIn</a></li>
+          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=yanyinchoy">@yanyinchoy</a></li>
+        </ul>
+      </section>
+    </div>
+ 	</div>
+  </div>
+	</body>
 </html>

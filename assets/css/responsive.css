@@ -1,33 +1,57 @@
-@media screen and (min-width: 480px) {
+@import "compass/css3";
 
-  /* Two-Column Layout
-   */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 
-  #primary {
-    width: 50%;
-    float: left;
-    margin: 0 5% 80px 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  background: #1d7873;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+
+}
+
+#about {
+    margin: 30px auto;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
   }
 
-  #secondary {
-    width: 40%;
-    float: right;
+#secondary {
+    margin: 0 auto;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
   }
+/* Medium screens */
+@media all and (max-width: 960px) {
+  .navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
 
-  /* 3 * 5 = 15
-   * 100 - 15 = 85
-   * 85 / 3 = 28.33333333 width
-   */
-
-  /* PAGE: PORTFOLIO
-   */
 
   #gallery li {
     width: 28.3333%;
 
   }
-
-  /* apply the styling to the 4th list item in the gallery element  */
 
   #gallery li: nth-child(4n) {
     clear: left;
@@ -43,8 +67,13 @@
   }
 }
 
-@media screen and (min-width: 660px) {
 
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navigation {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
   /* HEADER
    */
 
@@ -78,6 +107,11 @@
     margin-bottom: 66px;
   }
 
+  section.contact {
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: left;
 
+  }
 
 }
