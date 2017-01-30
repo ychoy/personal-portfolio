@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Yan Yin Choy's Portfolio</title>
-
   <!-- meta -->
   <meta charset="utf-8" />
   <meta name="description" content="Personal Site">
@@ -16,13 +15,14 @@
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!--Bootstrap-->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/img/GA_favicon.png">
-  <!-- fonts --->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600,600italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!-- fonts -->
+  <link href='https://fonts.googleapis.com/csis?family=Open+Sans:400,700,400italic,600,600italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -31,92 +31,109 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#index">My Work</a></li>
+        <li><a href="#portfolio">My Work</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <!-- Brand and toggle get grouped for better mobile display -->
   </header>
 
-    <!-- Portfolio Flex Box -->
-  <div id="wrapper">
-    <img class="profile-photo" src="assets/img/YanYinChoy_1.png" alt="Photograph of Yan Yin Choy" class="img-circle">>
+
+  <div class="container">
+    <section id="profile-photo">
+    <img class="profile-photo" class ="img-responsive" src="assets/img/YanYinChoy_1.png" alt="Photograph of Yan Yin Choy" class="img-circle">
       <h1> Yan Yin Choy </h1>
       <h3> Full Stack Web Developer </h3>
-      <!--
-      <section id="index">
-         <ul id="gallery">
-           <ul class="flex-container">
-              <li class="flex-item">Memory Card Game</li>
-              <li class="flex-item">Roshambo</li>
-              <li class="flex-item">Super Rentals</li>
-              <li class="flex-item">Coming Soon</li>
-              <li class="flex-item">Coming Soon</li>
-              <li class="flex-item">Coming Soon</li>
-            </ul>
-        </ul>
-      </section>
-      -->
+			<br>
+    </section>
+  </div>
 
-      <!-- Portfolio -->
-     <div class ="container">
-	    <div class="row">
+  <!-- Portfolio -->
+	<div class="container">
+  	<section id="portfolio">
+    	<div class="row">
   			<div class="col-sm-6 col-md-4">
     			<div class="thumbnail">
-      			<img src="https://media.giphy.com/media/5xtDarIhnyHeUi7Lgxa/giphy.gif" alt="...">
+      			<img src="..." alt="...">
       				<div class="caption">
-        				<h3>Memory Card Game</h3>
-        					<p>...</p>
-        					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        				<h3></h3>
+        				<p></p>
+        				<p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
       				</div>
     			</div>
   			</div>
-  			<div class="col-sm-6 col-md-4">
+   			<div class="col-sm-6 col-md-4">
     			<div class="thumbnail">
-      			<img src="https://media.giphy.com/media/A9lgUYVqLeRb2/giphy.gif" alt="...">
+      			<img src="..." alt="...">
       				<div class="caption">
-        				<h3>Roshambo</h3>
-        					<p>...</p>
-        					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        				<h3></h3>
+        				<p></p>
+        				<p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
       				</div>
     			</div>
   			</div>
-  			<div class="col-sm-6 col-md-4">
+   			<div class="col-sm-6 col-md-4">
     			<div class="thumbnail">
-      			<img src="https://media.giphy.com/media/3o6ozAxsUHHV2Kmy7m/giphy.gif" alt="...">
+      			<img src="..." alt="...">
       				<div class="caption">
-        				<h3>Super Rentals</h3>
-        					<p>...</p>
-        					<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        				<h3></h3>
+        				<p>...</p>
+        				<p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
       				</div>
     			</div>
   			</div>
 			</div>
-    </div>
+		</section>
+  </div>
+
 
 	<!-- About Section -->
-    <div class="container"
-      <section id="about">
-        <h3>About</h3>
-        <p> This is my developer portfolio to feature all my favorite projects. As a student at General Assembly's web development immersive program, I am learning full stack development in Javascript and Ruby.</p>
-        <p> Prior to web development, I worked for nonprofits and the government. I was inspired to pursue web development because of my work and leadership in creating and managing public-private partnerships with local government departments, advocating for open data policy with Code for San José, and developing new leaders as Co-Director of New Leaders Council Silicon Valley.</p>
-        <p> I am seeking opportunities to use my programming skills and apply my cross-functional leadership skills to build great products.</p>
-      </section>
-    </div>
-
-    <!-- Contact Section -->
-    <div class="container">
-      <section class="contact">
-        <h3>Contact Me</h3>
-        <ul id ="contact-info">
-          <li class="mail"><a href="mailto:yanyinchoy@gmail.com">Email</a></li>
-          <li class="github"><a href="https://github.com/ychoy">Github</a></li>
-          <li class="linkedin"><a href="http://linkedin.com/in/yanyinchoy">LinkedIn</a></li>
-          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=yanyinchoy">@yanyinchoy</a></li>
-        </ul>
-      </section>
-    </div>
- 	</div>
+  <div class="container">
+		<section id="about">
+				<div class="panel panel-default">
+  				<div class="panel-heading">
+    				<h3>About</h3>
+      			<p> I am a junior full stack web developer looking for opportunities to use my programming skills and cross-functional leadership skills to build innovative products. As a student at General Assembly's web development immersive program, I am learning full stack development in Javascript and Ruby.</p>
+      			<p> I was inspired to pursue web development because of my previous work and leadership experiences creating and managing public-private partnerships with local government departments, advocating for open data policy with Code for San José, and developing new leaders as Co-Director of New Leaders Council Silicon Valley.</p>
+				  </div>
+				</div>
+    </section>
   </div>
-	</body>
+
+  <!-- Contact Section -->
+  <div class="container" text-align="center">
+  	<section id="contact">
+    	<h3>Contact Me</h3>
+      	<a href="mailto:yanyinchoy@gmail.com">Email</a></li>
+        <b>&middot;</b>
+        <a href="https://github.com/ychoy">Github</a></li>
+        <b>&middot;</b>
+        <a href="http://linkedin.com/in/yanyinchoy">LinkedIn</a></li>
+        <b>&middot;</b>
+        <a href="http://twitter.com/intent/tweet?screen_name=yanyinchoy">Twitter</a></li>
+     	</section>
+ 	</div>
+
+ </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+	<br>
+	<br>
+  <div class="panel-footer">
+		<div class ="text-center text-muted">
+        <ul class="list-inline">
+          <li><a href="http://linkedin.com/in/yanyinchoy"><img src="assets/img/linkedin_logo.png" alt="LinkedIn" class="social-icon"></a></li>
+          <li><a href="http://github.com/ychoy"><img src="assets/img/github_logo.png" alt="Github" class="social-icon"></a></li>
+          <li><a href="http://twitter.com/yanyinchoy"><img src="assets/img/twitter-wrap.png" alt="Twitter" class="social-icon"></a></li>
+        </ul>
+      <p>
+        &copy; Copyright 2017 Yan Yin Choy.
+      </p>
+    </div>
+  </div>
+
 </html>
