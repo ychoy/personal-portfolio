@@ -13,7 +13,10 @@
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-  <!-- scripts -->
+ <!-- Vendor scripts -->
+    <script src="http://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Application scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!--Bootstrap-->
@@ -21,105 +24,98 @@
 
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/img/GA_favicon.png">
-  <!-- fonts -->
-  <link href='https://fonts.googleapis.com/csis?family=Open+Sans:400,700,400italic,600,600italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
-<body>
-  <div class="container">
-	<!-- Header -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#portfolio">My Work</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- Brand and toggle get grouped for better mobile display -->
-  </header>
+    <body>
+      <div class="container">
+	    <!-- Header -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#portfolio">My Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- Brand and toggle get grouped for better mobile display -->
+      </header>
+      </div>
+
+      <div class="container">
+        <section id="profile-photo">
+          <img class="profile-photo" class ="img-responsive" src="assets/img/YanYinChoy_1.png" alt="Photograph of Yan Yin Choy" class="img-circle">
+          <h1> Yan Yin Choy </h1>
+          <h3> Full Stack Web Developer </h3>
+			    <br>
+        </section>
+      </div>
+
+      <!-- Portfolio -->
+	    <div class="container">
+  	    <section id="portfolio">
+    	    <div class="row">
+  			    <div class="col-sm-6 col-md-4">
+    			    <div class="thumbnail">
+      			    <img src="..." alt="...">
+      				    <div class="caption">
+        				    <h3></h3>
+        				    <p></p>
+        				    <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
+      				    </div>
+    			    </div>
+  			    </div>
+   			    <div class="col-sm-6 col-md-4">
+    			    <div class="thumbnail">
+      			    <img src="..." alt="...">
+      				    <div class="caption">
+        				    <h3></h3>
+        				    <p></p>
+        				    <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
+      				    </div>
+    			    </div>
+  			    </div>
+   			    <div class="col-sm-6 col-md-4">
+    			    <div class="thumbnail">
+      			    <img src="..." alt="...">
+      				    <div class="caption">
+        				    <h3></h3>
+        				    <p>...</p>
+        				    <p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
+      				    </div>
+    			    </div>
+  			    </div>
+			    </div>
+		    </section>
+      </div>
 
 
-  <div class="container">
-    <section id="profile-photo">
-    <img class="profile-photo" class ="img-responsive" src="assets/img/YanYinChoy_1.png" alt="Photograph of Yan Yin Choy" class="img-circle">
-      <h1> Yan Yin Choy </h1>
-      <h3> Full Stack Web Developer </h3>
-			<br>
-    </section>
-  </div>
-
-  <!-- Portfolio -->
-	<div class="container">
-  	<section id="portfolio">
-    	<div class="row">
-  			<div class="col-sm-6 col-md-4">
-    			<div class="thumbnail">
-      			<img src="..." alt="...">
-      				<div class="caption">
-        				<h3></h3>
-        				<p></p>
-        				<p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
-      				</div>
-    			</div>
-  			</div>
-   			<div class="col-sm-6 col-md-4">
-    			<div class="thumbnail">
-      			<img src="..." alt="...">
-      				<div class="caption">
-        				<h3></h3>
-        				<p></p>
-        				<p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
-      				</div>
-    			</div>
-  			</div>
-   			<div class="col-sm-6 col-md-4">
-    			<div class="thumbnail">
-      			<img src="..." alt="...">
-      				<div class="caption">
-        				<h3></h3>
-        				<p>...</p>
-        				<p><a href="#" class="btn btn-primary" role="button">Learn more</a></p>
-      				</div>
-    			</div>
-  			</div>
-			</div>
-		</section>
-  </div>
-
-
-	<!-- About Section -->
-  <div class="container">
-		<section id="about">
-				<div class="panel panel-default">
-  				<div class="panel-heading">
-    				<h3>About</h3>
-      			<p> I am a junior full stack web developer looking for opportunities to use my programming skills and cross-functional leadership skills to build innovative products. As a student at General Assembly's web development immersive program, I am learning full stack development in Javascript and Ruby.</p>
-      			<p> I was inspired to pursue web development because of my previous work and leadership experiences creating and managing public-private partnerships with local government departments, advocating for open data policy with Code for San José, and developing new leaders as Co-Director of New Leaders Council Silicon Valley.</p>
+	    <!-- About Section -->
+      <div class="container">
+		    <section id="about">
+				  <div class="panel panel-primary">
+  				  <div class="panel-heading">
+    				  <h3>About</h3>
+      			  <p> I am a junior full stack web developer looking for opportunities to use my programming skills and cross-functional leadership skills to build innovative products. As a student at General Assembly's web development immersive program, I am learning full stack development in Javascript and Ruby.</p>
+      			  <p> I was inspired to pursue web development because of my previous work and leadership experiences creating and managing public-private partnerships with local government departments, advocating for open data policy with Code for San José, and developing new leaders as Co-Director of New Leaders Council Silicon Valley.</p>
+				    </div>
 				  </div>
-				</div>
-    </section>
-  </div>
+        </section>
+      </div>
 
-  <!-- Contact Section -->
-  <div class="container" text-align="center">
-  	<section id="contact">
-    	<h3>Contact Me</h3>
-      	<a href="mailto:yanyinchoy@gmail.com">Email</a></li>
-        <b>&middot;</b>
-        <a href="https://github.com/ychoy">Github</a></li>
-        <b>&middot;</b>
-        <a href="http://linkedin.com/in/yanyinchoy">LinkedIn</a></li>
-        <b>&middot;</b>
-        <a href="http://twitter.com/intent/tweet?screen_name=yanyinchoy">Twitter</a></li>
-     	</section>
- 	</div>
+      <!-- Contact Section -->
+      <div class="container" text-align="center">
+  	    <section id="contact">
+    	    <h3>Contact Me</h3>
+      	  <a href="mailto:yanyinchoy@gmail.com">Email</a></li>
+          <b>&middot;</b>
+          <a href="https://github.com/ychoy">Github</a></li>
+          <b>&middot;</b>
+          <a href="http://linkedin.com/in/yanyinchoy">LinkedIn</a></li>
+          <b>&middot;</b>
+          <a href="http://twitter.com/intent/tweet?screen_name=yanyinchoy">Twitter</a></li>
+     	  </section>
+ 	    </div>
 
- </div>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
   </body>
 	<br>
 	<br>
