@@ -37,7 +37,7 @@ $(document).ready(function(){
             <div class="caption">
               <h3>${projects[i].captions}</h3>
               <p class="content">${projects[i].description}</p>
-              <p><a href="${projects[i].githubUrl}"class="btn btn-info" role="button">Github</a></p>
+              <p><a href="${projects[i].githubUrl}"class="btn btn-success" role="button">Github</a></p>
               <p><a href="${projects[i].liveUrl}"class="btn btn-primary" role="button">Live</a></p>
             </div>
         </div>`

@@ -12,6 +12,7 @@ body {
 } */
 
 a {
+  font-size: 1.3em;
   text-decoration: none;
 }
 
@@ -65,11 +66,20 @@ h2 {
 }
 
 h3 {
-  font-size: 1.35em;
+  font-size: 1.4em;
   font-weight: 700;
   text-align: center;
   color: #20b2aa;
 }
+
+p {
+  font-size: 1.25em;
+}
+
+li {
+  font-size: 1.25em;
+}
+
 /* NAVIGATION */
 
 nav {
