@@ -13,7 +13,5 @@ This is my portfolio showcasing my web development work here: https://ychoy.gith
 - User can read featured projects
 
 ## Planned Features
-- Create API
-- Connect to MongoDB
-- Built Express backend
+- Update with more projects
 
