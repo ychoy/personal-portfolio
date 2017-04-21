@@ -1,10 +1,35 @@
 $(document).ready(function(){
   var projects = [
   {
+		imageAlt: "Rydeshare app screenshot",
+		imageUrl: "assets/img/ychoy_rydeshare.png",
+		captions: "Rydeshare",
+		description: "Rydeshare is a web application for users to search for carpool trips based on departures, join and create carpools. I ideated, designed, and built RESTful CRUD functionality for users to create and join carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map. Technologies: HTML, CSS, jQuery, Semantic UI, Rails, Google Maps API, Geocoder, Devise, PostgreSQL.",
+		githubUrl: "https://github.com/ychoy/rydeshare",
+		liveUrl: "https://rydeshare.herokuapp.com"
+		},
+
+ {
+		imageAlt: "WeHuddle app screenshot",
+		imageUrl: "assets/img/ychoy_wehuddle.png",
+		captions: "WeHuddle",
+		description: "WeHuddle is a responsive web application that allows users to chat in real-time. Open source collaboration built with Thelma Boamah and Will Kaspar. I developed the direct messaging feature, created integration tests, and refactored code for OOP design. I also drafted user stories and sprint specifications, and designed chatroom sidebar and forms. Technologies: HTML, CSS, jQuery, Semantic UI, Rails, Action Cable, Websockets, Devise, Carrierwave, PostgreSQL.",
+		githubUrl: "https://github.com/ychoy/wehuddle",
+		liveUrl: "https://wehuddle.herokuapp.com"
+		},
+  {
+		imageAlt: "Le Vagabond app screenshot",
+		imageUrl: "assets/img/ychoy_levagabond.png",
+		captions: "Le Vagabond",
+		description: "Le Vagabond is a web application for users to create and share hints on their favorite cities. I built CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page, login and user authentication page. I also consulted UX/UI designers and implemented advice for responsive front end design. Le Vagabond is an open source web application built in collaboration with Christen Williams and Auston Wilkinson.",
+		githubUrl: "https://github.com/ychoy/vagabond",
+		liveUrl: "https://levagabond.herokuapp.com"
+		},
+  {
 		imageAlt: "CarpeGov app screenshot",
 		imageUrl: "assets/img/ychoy_carpegov.png",
 		captions: "CarpeGov",
-		description: "Civic engagement tool for administrators to create, read, update, and delete Congressional bills on education and add, show, edit and delete action items taken on the bills. Open source collaboration with my colleague Weston Dombroksi. Technologies used inlude; MongoDb, Mongoose, Express, Node.js, Bootstrap and jQuery",
+		description: "Civic engagement tool for administrators to create, read, update, and delete Congressional bills on education and add, show, edit and delete action items taken on the bills. Open source collaboration with Weston Dombroksi. Technologies used: MongoDb, Mongoose, Express, Node.js, Bootstrap, jQuery.",
 		githubUrl: "https://github.com/ychoy/carpe-gov",
 		liveUrl: "https://carpegov.herokuapp.com"
 		},
