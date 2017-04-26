@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+a#resume {
+  font-size: inherit;
+}
+
 img {
   max-width: 100%;
 
