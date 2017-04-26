@@ -4,7 +4,7 @@ $(document).ready(function(){
 		imageAlt: "Rydeshare app screenshot",
 		imageUrl: "assets/img/ychoy_rydeshare.png",
 		captions: "Rydeshare",
-		description: "Create, join and search for carpools to save time, money and stress on the commute  ",
+		description: "Create, join and search for carpools to save time and money and reduce stress on the commute  ",
     about: "I ideated, designed, and built RESTful CRUD functionality for users to create and join carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map.",
 		projectType: "I was the designer and developer",
     tech: "HTML, CSS, jQuery, Semantic UI, Rails, Google Maps API, Geocoder, Devise, PostgreSQL",
