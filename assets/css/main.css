@@ -12,12 +12,8 @@ body {
 } */
 
 a {
-  font-size: 1.3em;
-  text-decoration: none;
-}
-
-a#resume {
   font-size: inherit;
+  text-decoration: none;
 }
 
 img {
@@ -72,7 +68,6 @@ h2 {
 h3 {
   font-size: 1.4em;
   font-weight: 700;
-  text-align: center;
   color: #20b2aa;
 }
 
