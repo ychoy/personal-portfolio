@@ -4,8 +4,11 @@ $(document).ready(function(){
 		imageAlt: "Rydeshare app screenshot",
 		imageUrl: "assets/img/ychoy_rydeshare.png",
 		captions: "Rydeshare",
-		description: "Rydeshare is a web application for users to search for carpool trips based on departures, join and create carpools. I ideated, designed, and built RESTful CRUD functionality for users to create and join carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map. Technologies: HTML, CSS, jQuery, Semantic UI, Rails, Google Maps API, Geocoder, Devise, PostgreSQL.",
-		githubUrl: "https://github.com/ychoy/rydeshare",
+		description: "Create, join and search for carpools to save time, money and stress on the commute  ",
+    about: "I ideated, designed, and built RESTful CRUD functionality for users to create and join carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map.",
+		projectType: "I was the designer and developer",
+    tech: "HTML, CSS, jQuery, Semantic UI, Rails, Google Maps API, Geocoder, Devise, PostgreSQL",
+    githubUrl: "https://github.com/ychoy/rydeshare",
 		liveUrl: "https://rydeshare.herokuapp.com"
 		},
 
@@ -13,7 +16,10 @@ $(document).ready(function(){
 		imageAlt: "WeHuddle app screenshot",
 		imageUrl: "assets/img/ychoy_wehuddle.png",
 		captions: "WeHuddle",
-		description: "WeHuddle is a responsive web application that allows users to chat in real-time. Open source collaboration built with Thelma Boamah and Will Kaspar. I developed the direct messaging feature, created integration tests, and refactored code for OOP design. I also drafted user stories and sprint specifications, and designed chatroom sidebar and forms. Technologies: HTML, CSS, jQuery, Semantic UI, Rails, Action Cable, Websockets, Devise, Carrierwave, PostgreSQL.",
+		description: "Chat in real-time and empower your teams to collaborate more  ",
+    about: "I developed the direct messaging feature, performed integration tests, and refactored code for OOP design. I also drafted user stories and sprint specifications, and designed chatroom sidebar and forms.",
+    projectType: "Open source collaboration built with Thelma Boamah and Will Kaspar. Consulted UX/UI designer Luke Swanson.",
+    tech: "HTML, CSS, jQuery, Semantic UI, Rails, Action Cable, Websockets, Devise, Carrierwave, PostgreSQL",
 		githubUrl: "https://github.com/ychoy/wehuddle",
 		liveUrl: "https://wehuddle.herokuapp.com"
 		},
@@ -21,8 +27,11 @@ $(document).ready(function(){
 		imageAlt: "Le Vagabond app screenshot",
 		imageUrl: "assets/img/ychoy_levagabond.png",
 		captions: "Le Vagabond",
-		description: "Le Vagabond is a web application for users to create and share hints on their favorite cities. I built CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page, login and user authentication page. I also consulted UX/UI designers and implemented advice for responsive front end design. Le Vagabond is an open source web application built in collaboration with Christen Williams and Auston Wilkinson.",
-		githubUrl: "https://github.com/ychoy/vagabond",
+		description: "Create and share hints on your favorite cities  ",
+    about: "I built CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page, login and user authentication page. I also consulted UX/UI designers and implemented advice for responsive front end design.",
+    projectType: "Open source collaboration built with Christen Williams and Auston Wilkinson. Consulted UX/UI designers Daniel Peck, Katie Yi, Seungjae Yun and Urvi Jain.",
+    tech: "HTML, CSS, Bootstrap, Ruby on Rails, Devise, PostgreSQL",
+    githubUrl: "https://github.com/ychoy/vagabond",
 		liveUrl: "https://levagabond.herokuapp.com"
 		},
   // {
@@ -57,15 +66,23 @@ $(document).ready(function(){
   var samples = "";
   	for (var i = 0; i < projects.length; i++) {
   		samples += `
-  		  <div class="col-md-12">
-          <img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
-            <div class="caption">
-              <h3>${projects[i].captions}</h3>
-              <p class="content">${projects[i].description}</p>
-              <p><a href="${projects[i].githubUrl}"class="btn btn-success" role="button">Github</a></p>
-              <p><a href="${projects[i].liveUrl}"class="btn btn-primary" role="button">Live</a></p>
+        <div class="row">
+  		    <div class="col-sm-6 col-md-4">
+          <br>
+            <div class="thumbnail">
+              <img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
             </div>
-        </div>`
+          </div>
+          <div class="col-sm-6 col-md-8">
+            <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a></h3>
+            <h3><em>${projects[i].description}</em><a href="${projects[i].githubUrl}"><img src="assets/img/github.png" alt="Github" class="social-icon"></a></h3>
+            <p>${projects[i].about}</p>
+            <p><strong>Team: </strong>${projects[i].projectType}</p>
+            <p><strong>Technologies: </strong>${projects[i].tech}</p>
+          </div>
+        </div>
+        <br>
+        `
       }
-      $(".portfolio #portfolio .row").append(samples);
+      $(".portfolio #portfolio").append(samples);
 });
