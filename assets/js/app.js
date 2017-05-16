@@ -40,11 +40,21 @@ $(document).ready(function(){
 	  captions: "CarpeGov",
 	  description: "Track Congressional bills on education and add and track actions taken on those bills.",
 	  about: "I built CRUD functionality for users to create, edit, update and delete action items, persisted two models with MongoDB, and styled the frontend with Bootstrap. I collaborated with Weston to craft wireframes, ERDs and user stories.",
-	  projectType: "Open source collaboration built with Weston Dombroski.",
+	  projectType: "Open source collaboration built with Weston Dombroski",
 	  tech: "MongoDB, Mongoose, Express, Node.js, Bootstrap, jQuery",
 	  githubUrl: "https://github.com/ychoy/carpe-gov",
 	  liveUrl: "https://carpegov.herokuapp.com"
 	  },
+    {
+      imageALt: "Find a Home",
+      imageUrl: "assets/img/ychoy_findahome.png",
+      captions: "Find A Home",
+      description: "Find affordable housing near you.",
+      about: "I consulted local government partner to obtain data on affordable housing listings. I received incomplete listing data in PDF format from the partner company. I collaborated with Tyler to code web scraping algorithms in Ruby to parse data. I recruited developers and collaborated to craft wireframes and roadmap. I updated the model with Active Record Object Relational Mapping (ORM).",
+      projectType: "Open source collaboration built with Tyler Hampton and Angelique de Castro",
+      tech: "Rails, Ember, Node, PostgreSQL, Redis, Google Maps API, Geocoder, Semantic UI",
+      githubUrl: "http://github.com/codeforsanjose/findahome"
+    }
 ]
 
   var samples = "";
