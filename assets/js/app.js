@@ -38,7 +38,7 @@ $(document).ready(function(){
 	  imageAlt: "CarpeGov app screenshot",
 	  imageUrl: "assets/img/ychoy_carpegov.png",
 	  captions: "CarpeGov",
-	  description: "Civic engagement tool for administrators to create, read, update, and delete Congressional bills on education and add, show, edit and delete action items taken on the bills.",
+	  description: "Track Congressional bills on education and add and track actions taken on those bills.",
 	  about: "I built CRUD functionality for users to create, edit, update and delete action items, persisted two models with MongoDB, and styled the frontend with Bootstrap. I collaborated with Weston to craft wireframes, ERDs and user stories.",
 	  projectType: "Open source collaboration built with Weston Dombroski.",
 	  tech: "MongoDB, Mongoose, Express, Node.js, Bootstrap, jQuery",
