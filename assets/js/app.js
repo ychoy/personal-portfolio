@@ -30,7 +30,7 @@ $(document).ready(function(){
 		description: "Create and share hints on your favorite cities  ",
     about: "I built CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page, login and user authentication page. I also consulted UX/UI designers and implemented advice for responsive front end design.",
     projectType: "Open source collaboration built with Christen Williams and Auston Wilkinson. Consulted UX/UI designers Daniel Peck, Katie Yi, Seungjae Yun and Urvi Jain.",
-    tech: "HTML, CSS, Bootstrap, Ruby on Rails, Devise, PostgreSQL",
+    tech: "HTML, CSS, Bootstrap, Rails, PostgreSQL",
     githubUrl: "https://github.com/ychoy/vagabond",
 		liveUrl: "https://levagabond.herokuapp.com"
 		},
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	  liveUrl: "https://carpegov.herokuapp.com"
 	  },
     {
-      imageALt: "Find a Home",
+      imageALt: "Find A Home",
       imageUrl: "assets/img/ychoy_findahome.png",
       captions: "Find A Home",
       description: "Find affordable housing near you.",
