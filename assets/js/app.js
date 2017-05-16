@@ -17,7 +17,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_wehuddle.png",
 		captions: "WeHuddle",
 		description: "Chat in real-time and empower your teams to collaborate more  ",
-    about: "I developed the direct messaging feature, performed integration tests, and refactored code for OOP design. I also drafted user stories and sprint specifications, and designed chatroom sidebar and forms.",
+    about: "I developed the direct messaging feature, performed integration tests, and refactored code for OOP design. I also drafted user stories and sprint specifications, and designed chatroom sidebar and forms. I collaborate with Thelma and Will to persist two models with Active Record, develop the Chatroom feature and enable user login.",
     projectType: "Open source collaboration built with Thelma Boamah and Will Kaspar. Consulted UX/UI designer Luke Swanson.",
     tech: "HTML, CSS, jQuery, Semantic UI, Rails, Action Cable, Websockets, Devise, Carrierwave, PostgreSQL",
 		githubUrl: "https://github.com/ychoy/wehuddle",
@@ -34,33 +34,17 @@ $(document).ready(function(){
     githubUrl: "https://github.com/ychoy/vagabond",
 		liveUrl: "https://levagabond.herokuapp.com"
 		},
-  // {
-	// 	imageAlt: "CarpeGov app screenshot",
-	// 	imageUrl: "assets/img/ychoy_carpegov.png",
-	// 	captions: "CarpeGov",
-	// 	description: "Civic engagement tool for administrators to create, read, update, and delete Congressional bills on education and add, show, edit and delete action items taken on the bills. Open source collaboration with Weston Dombroksi. Technologies used: MongoDb, Mongoose, Express, Node.js, Bootstrap, jQuery.",
-	// 	githubUrl: "https://github.com/ychoy/carpe-gov",
-	// 	liveUrl: "https://carpegov.herokuapp.com"
-	// 	},
-  //
-  // {
-  // imageAlt: "Spotify Search app screenshot",
-  // imageUrl:   "assets/img/ychoy_spotifysearch.png",
-  // captions: "Spotify Search",
-  // description: "Web application that allows users to search for songs on the Spotify API. Technologies used include: jQuery, AJAX, Bootstrap, Spotify API",
-  // githubUrl: "https://github.com/ychoy/spotify-search-lab",
-  // liveUrl: "https://ychoy.github.io/spotify-search-lab/"
-  // },
-  //
-  //
-  // {
-  // imageAlt: "Starship Racing Game screenshot",
-  // imageUrl: "assets/img/ychoy_racinggame.png",
-  // captions: "Starship Racing Game",
-  // description: "Two players can operate starships to race to the final frontier. Technologies used include: HTML, CSS, Bootstrap, jQuery",
-  // githubUrl: "https://github.com/ychoy/racing-game",
-  // liveUrl: "https://ychoy.github.io/racing-game/"
-  // },
+    {
+	  imageAlt: "CarpeGov app screenshot",
+	  imageUrl: "assets/img/ychoy_carpegov.png",
+	  captions: "CarpeGov",
+	  description: "Civic engagement tool for administrators to create, read, update, and delete Congressional bills on education and add, show, edit and delete action items taken on the bills."
+	  about: "I built CRUD functionality for users to create, edit, update and delete action items, persisted two models with MongoDB. and styled the frontend with Bootstrap. I collaborated with Weston to craft wireframes, ERDs and user stories."
+	  projectType: "Open source collaboration built with Weston Dombroski."
+	  tech: "MongoDB, Mongoose, Express, Node.js, Bootstrap, jQuery",
+	  githubUrl: "https://github.com/ychoy/carpe-gov",
+	  liveUrl: "https://carpegov.herokuapp.com"
+	  },
 ]
 
   var samples = "";
