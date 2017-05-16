@@ -19,7 +19,7 @@ $(document).ready(function(){
 		description: "Chat in real-time and empower your teams to collaborate more  ",
     about: "I developed the direct messaging feature, performed integration tests, and refactored code for OOP design. I also drafted user stories and sprint specifications, and designed chatroom sidebar and forms. I collaborate with Thelma and Will to persist two models with Active Record, develop the Chatroom feature and enable user login.",
     projectType: "Open source collaboration built with Thelma Boamah and Will Kaspar. Consulted UX/UI designer Luke Swanson.",
-    tech: "HTML, CSS, jQuery, Semantic UI, Rails, Action Cable, Websockets, Devise, Carrierwave, PostgreSQL",
+    tech: "HTML, CSS, jQuery, Semantic UI, Rails, Action Cable, WebSockets, Devise, Carrierwave, PostgreSQL",
 		githubUrl: "https://github.com/ychoy/wehuddle",
 		liveUrl: "https://wehuddle.herokuapp.com"
 		},
