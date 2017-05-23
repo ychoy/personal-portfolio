@@ -47,7 +47,7 @@ $(document).ready(function(){
 	  },
     {
       imageALt: "Find A Home",
-      imageUrl: "assets/img/ychoy_findahome.png",
+      imageUrl: "assets/img/findahome_may2017_thumbnail.png",
       captions: "Find A Home",
       description: "Find affordable housing near you.",
       about: "I consulted local government partner to obtain data on affordable housing listings. I received incomplete listing data in PDF format from the partner company. I collaborated with Tyler to code web scraping algorithms in Ruby to parse data. I recruited developers and collaborated to craft wireframes and roadmap. I updated the model with Active Record Object Relational Mapping (ORM).",
