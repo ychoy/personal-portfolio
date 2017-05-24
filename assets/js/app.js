@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   var projects = [
   {
 		imageAlt: "Rydeshare app screenshot",
@@ -50,7 +51,7 @@ $(document).ready(function(){
       imageUrl: "assets/img/findahome_may2017_thumbnail.png",
       captions: "Find A Home",
       description: "Find affordable housing near you.",
-      about: "I consulted local government partner to obtain data on affordable housing listings. I received incomplete listing data in PDF format from the partner company. I collaborated with Tyler to code web scraping algorithms in Ruby to parse data. I recruited developers and collaborated to craft wireframes and roadmap. I updated schema for data model in PostgreSQL. I developed index vie wand map markers display for all listings.",
+      about: "I consulted local government partner to obtain data on affordable housing listings. I received incomplete listing data in PDF format from the partner company. I collaborated with Tyler to code web scraping algorithms in Ruby to parse data. I recruited developers and collaborated to craft wireframes and roadmap. I updated schema for data model in PostgreSQL. I developed and designed index view and map markers display for all listings.",
       projectType: "Open source collaboration built with Tyler Hampton and Angelique de Castro",
       tech: "Rails, Ember, Node, PostgreSQL, Redis, Google Maps API, Geocoder, Semantic UI",
       githubUrl: "http://github.com/codeforsanjose/findahome",
