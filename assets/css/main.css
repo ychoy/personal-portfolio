@@ -36,10 +36,6 @@ img {
     max-height: 100%;
 }
 
-h3 {
-  margin: 0 0 1em 0;
-}
-
 /* Heading
  */
 
@@ -72,9 +68,10 @@ h2 {
 }
 
 h3 {
+  margin: 0 0 1em 0;
   font-size: 1.4em;
   font-weight: 700;
-  color: #20b2aa;
+  color: teal;
 }
 
 p {
@@ -175,12 +172,13 @@ body {
 }
 
 header {
-  background: #015f57;
+  background: #1d7873;
 }
 
 /* nav background on mobile */
 nav {
-  background: #015f57;
+  background: ##1d7873;
+
 }
 
 /* logo text */
@@ -193,7 +191,7 @@ h1, h2 {
 /* links */
 
 a {
-  color: #6ab47b;
+  color: cadetblue;
 }
 
 
