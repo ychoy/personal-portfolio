@@ -16,9 +16,9 @@ $(document).ready(function(){
       imageALt: "Find A Home",
       imageUrl: "assets/img/findahome_may2017_thumbnail.png",
       captions: "Find A Home",
-      description: "Find affordable housing near you.",
-      about: "I consulted local government partner to obtain data on affordable housing listings. I received incomplete listing data in PDF format from the partner company. I collaborated with Tyler to code web scraping algorithms in Ruby to parse data. I recruited developers and collaborated to craft wireframes and roadmap. I updated schema for data model in PostgreSQL. I developed and designed index view and map markers display for all listings.",
-      projectType: "Open source collaboration built with developers - Tyler Hampton and Angelique de Castro, and UX/UI designer - Julie Kim",
+      description: "Find affordable housing near you",
+      about: "I consulted local government partner to obtain data on affordable housing listings. I collaborated with Tyler to code web scraping algorithms in Ruby to parse data. I recruited developers and collaborated to craft wireframes and roadmap. I updated schema for data model in PostgreSQL. I developed and designed index view and map markers display for all listings. I collaborated with the team to conduct user research.",
+      projectType: "Open source collaboration built with developers - Tyler Hampton, Angelique de Castro, Sanaz Jamloo, and UX/UI designer - Julie Kim",
       tech: "Rails, Ember, Node, PostgreSQL, Redis, Google Maps API, Geocoder, Semantic UI SASS",
       githubUrl: "http://github.com/codeforsanjose/findahome",
       liveUrl: "https://github.com/codeforsanjose/findahome"
@@ -70,8 +70,8 @@ $(document).ready(function(){
             </div>
           </div>
           <div class="col-sm-6 col-md-8">
-            <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a></h3>
-            <h3><em>${projects[i].description}</em><a href="${projects[i].githubUrl}"><img src="assets/img/github.png" alt="Github" class="social-icon"></a></h3>
+            <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> <a href="${projects[i].githubUrl}"><img src="assets/img/github.png" alt="Github" class="social-icon"></a></h3>
+            <h3><em>${projects[i].description}</em></h3>
             <p>${projects[i].about}</p>
             <p><strong>Team: </strong>${projects[i].projectType}</p>
             <p><strong>Technologies: </strong>${projects[i].tech}</p>
