@@ -70,6 +70,7 @@ $(document).ready(function(){
             </div>
           </div>
           <div class="col-sm-6 col-md-8">
+            <br>
             <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> <a href="${projects[i].githubUrl}"><img src="assets/img/github.png" alt="Github" class="social-icon"></a></h3>
             <p><em>${projects[i].description}</em></p>
             <p>${projects[i].about}</p>
