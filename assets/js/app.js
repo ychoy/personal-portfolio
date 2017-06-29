@@ -19,7 +19,7 @@ $(document).ready(function(){
     captions: "Find A Home",
     description: "Find affordable housing near you",
     about: "I consulted local government partner to obtain data on affordable housing listings. I collaborated with Tyler to code web scraping algorithms in Ruby to parse data. I recruited developers and collaborated to craft wireframes and roadmap. I updated schema for data model in PostgreSQL. I developed and designed index view and map markers display for all listings. I collaborated with the team to conduct user research.",
-    role: "Full Stack Developer, Project Manager, UX Researcher",
+    role: "Full Stack Developer & Project Manager",
     projectType: "Open source collaboration built with developers - Tyler Hampton, Angelique de Castro, Sanaz Jamloo, and UX/UI designer - Julie Kim",
     tech: "Rails・Ember・Node・PostgreSQL・Redis・Google Maps API・Geocoder・Semantic UI SASS",
     githubUrl: "http://github.com/codeforsanjose/findahome",
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_wehuddle.png",
 		captions: "WeHuddle",
 		description: "Chat in real-time and empower your teams to collaborate more  ",
-    about: "I developed the direct messaging feature, performed integration tests, and refactored code for OOP design. I also drafted user stories and sprint specifications, and designed chatroom sidebar and forms. I collaborated with Thelma and Will to persist two models with Active Record and PostgreSQL and develop the Chatroom feature and user login.",
+    about: "I developed the direct messaging feature, designed chatroom sidebar and forms, and drafted user stories and sprint specifications. I collaborated with Thelma and Will to persist two models with Active Record and PostgreSQL and develop the Chatroom feature and user login.",
     role: "Full Stack Developer",
     projectType: "Open source collaboration built with Thelma Boamah and Will Kaspar. Consulted UX/UI designer Luke Swanson.",
     tech: "HTML・CSS・jQuery・Semantic UI・ Rails・Action Cable・WebSockets・Devise・Carrierwave・PostgreSQL・rSpec Rails",
@@ -54,7 +54,7 @@ $(document).ready(function(){
 	  imageAlt: "CarpeGov app screenshot",
 	  imageUrl: "assets/img/ychoy_carpegov.png",
 	  captions: "CarpeGov",
-	  description: "Track Congressional bills on education and add and track actions taken on those bills.",
+	  description: "Track Congressional bills on education and track actions taken on those bills.",
 	  about: "I built CRUD functionality for users to create, edit, update and delete action items, persisted two models with MongoDB, and styled the frontend with Bootstrap. I collaborated with Weston to craft wireframes, ERDs and user stories.",
     role: "Full Stack Developer",
     projectType: "Open source collaboration built with Weston Dombroski",
@@ -77,8 +77,8 @@ $(document).ready(function(){
           <div class="col-sm-6 col-md-8">
             <br>
             <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> <a href="${projects[i].githubUrl}"><img src="assets/img/github.png" alt="Github" class="social-icon"></a></h3>
-            <p><strong>${projects[i].description}</strong></p>
-            <p><strong>Description: </strong>${projects[i].about}</p>
+            <h4 style="color: darkcyan">${projects[i].description}</h4>
+            <p>${projects[i].about}</p>
             <p><strong>Role: </strong>${projects[i].role}</p>
             <p><strong>Team: </strong>${projects[i].projectType}</p>
             <p><strong>Technologies: </strong>${projects[i].tech}</p>
