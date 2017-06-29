@@ -43,7 +43,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_levagabond.png",
 		captions: "Le Vagabond",
 		description: "Create and share hints on your favorite cities  ",
-    about: "I built CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page, login and user authentication page. I also consulted UX/UI designers and implemented advice for responsive front end design. Adjusted and implemented features based on client feedback",
+    about: "I built CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page, login and user authentication page. I also consulted UX/UI designers and implemented advice for responsive front end design. I also adjusted and implemented features based on client feedback.",
     role: "Full Stack Developer",
     projectType: "Open source collaboration built with Christen Williams and Auston Wilkinson. Consulted UX/UI designers Daniel Peck, Katie Yi, Seungjae Yun, Justin Wong, Harry Byres, and Urvi Jain.",
     tech: "HTML・CSS・Bootstrap・Rails・PostgreSQL",
@@ -71,7 +71,7 @@ $(document).ready(function(){
   		    <div class="col-sm-6 col-md-4">
           <br>
             <div class="thumbnail">
-              <img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
+              <a href="${projects[i].liveUrl}"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
             </div>
           </div>
           <div class="col-sm-6 col-md-8">
