@@ -6,7 +6,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_rydeshare.png",
 		captions: "Rydeshare",
 		description: "Create, join and search for carpools to save time and money and reduce stress on the commute  ",
-    about: "Inspired by the long commute I took from San José to San Francisco Monday through Friday to General Assembly, I wanted to build a responsive web application that empowered people to reduce their stress, time and money spent on their commute. I designed and developed Rydeshare, a web application that allows users to create accounts, create carpool rides as a driver, join other drivers' carpools, and filter carpool departures on a map. I built CRUD fundtionality for users to create, edit, and remove their carpools. I also created CRUD functionality for users to join and leave carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map with Google Maps API and Gmaps.js.",
+    about: "Inspired by the long commute I took from San José to San Francisco to General Assembly, I wanted to build a responsive web application that empowered people to reduce their stress, time and money spent on their commute. I designed and developed Rydeshare, a web application that allows users to create accounts, create carpool rides as a driver, join other drivers' carpools, and filter carpool departures on a map. I built CRUD fundtionality for users to create, edit, and remove their carpools. I also created CRUD functionality for users to join and leave carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map with Google Maps API and Gmaps.js.",
 		role: "Full Stack Developer & Designer",
     projectType: "Solo Project",
     tech: "Rails・Google Maps API・Geocoder・PostgreSQL・HTML・CSS・jQuery・Devise・Semantic UI SASS・Heroku",
@@ -69,6 +69,7 @@ $(document).ready(function(){
   		samples += `
         <div class="row">
   		    <div class="col-sm-6 col-md-4">
+          <br>
           <br>
             <div class="thumbnail">
               <a href="${projects[i].liveUrl}"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
