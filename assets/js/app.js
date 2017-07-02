@@ -6,7 +6,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_rydeshare.png",
 		captions: "Rydeshare",
 		description: "Create, join and search for carpools to save time and money and reduce stress on the commute  ",
-    about: "Inspired by the long commute from San José to San Francisco, I wanted to build a responsive web application that empowered people to reduce their stress, time and money spent on their commute. I designed and developed Rydeshare, a web application that allows users to create accounts, create carpool rides as a driver, join other drivers' carpools, and filter carpool departures on a map. I built CRUD fundtionality for users to create, edit, and remove their carpools. I also created CRUD functionality for users to join and leave carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map.",
+    about: "I was inspired to build Rydeshare because of my long commute from San José to San Francisco, which was often affected by public transit issues or traffic. Rydeshare allows users to create accounts, create carpool rides as a driver, join other drivers' carpools, and filter carpool departures on a map. I built CRUD fundtionality for users to create, edit, and remove their carpools. I also created CRUD functionality for users to join and leave carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map.",
 		role: "Full Stack Developer & Designer",
     projectType: "Solo Project",
     tech: "Rails・Google Maps API・Geocoder・PostgreSQL・HTML・CSS・jQuery・Devise・Semantic UI SASS・Heroku",
