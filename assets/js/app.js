@@ -18,7 +18,7 @@ $(document).ready(function(){
     imageUrl: "assets/img/findahome_may2017_thumbnail.png",
     captions: "Find A Home",
     description: "Find affordable housing near you",
-    about: "As a long-time resident of the San Francisco Bay Area, I have noticed an increase in rent and lack of affordable housing. I wanted to address the difficulties of finding affordable housing by building a web application to improve the process. In December 2016 I began to collaborate with Tyler Hampton and Angelique De Castro to brainstorm user stories, sprint specifications and wireframes. I collaborated with Tyler to code web scraping algorithms in Ruby to parse afforadble housing data. I collaborated with Julie Kim - UX/UI designer, Emily Ramos - Developer, Sanaz Jamloo - Developer, to conduct user research. I migrated the schema with Rails Active Record and PostgreSQL. I also developed and designed the dashboard and and map markers display for affordable housing listings.",
+    about: "Growing up in the San Francisco Bay Area, I have noticed that rents continue to rise. I wanted to address the difficulties of finding affordable housing by building a web application to improve the process. In December 2016 I began to collaborate with Tyler Hampton and Angelique De Castro to brainstorm user stories, sprint specifications and wireframes. I collaborated with Tyler to code web scraping algorithms in Ruby to parse afforadble housing data. I collaborated with Julie Kim - UX/UI designer, Emily Ramos - Developer, Sanaz Jamloo - Developer, to conduct user research. <br><br>I migrated the schema with Rails Active Record and PostgreSQL. I also developed and designed the dashboard and and map markers display for affordable housing listings.",
     role: "Full Stack Developer & Project Manager",
     projectType: "Team Project",
     tech: "Rails・Ember・Node・PostgreSQL・Redis・Google Maps API・Geocoder・Semantic UI SASS",
@@ -43,7 +43,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_levagabond.png",
 		captions: "Le Vagabond",
 		description: "Create and share hints on your favorite cities  ",
-    about: "We built Le Vagabond for a client who wanted a responsive web application that allowed users to share hints about favorite cities throughout their travels. I collaborated with Christen Williams and Auston Wilkinson to build this web app. I developed the CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page and user login page and incorporated user authentication. We consulted UX/UI designers Daniel Peck, Katie Yi, Seungjae Yun, Justin Wong, Harry Byres, and Urvi Jain for feedback on improving user interface. Based on feedback from our client and designers, we adjusted features to enrich user experience.",
+    about: "Le Vagabond is a web application built for a client who wanted an applicatio that allowed users to share hints about their favorite cities throughout their travels. I collaborated with Christen Williams and Auston Wilkinson to build this web app. <br><br>  I developed the CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page and user login page and incorporated user authentication. <br><br> We reviewed user experience with UX/UI designers Daniel Peck, Katie Yi, Seungjae Yun, Justin Wong, Harry Byres, and Urvi Jain. Based on feedback from our client and designers, we adjusted features to enrich user experience.",
     role: "Full Stack Developer",
     projectType: "Team Project",
     tech: "HTML・CSS・Bootstrap・Rails・PostgreSQL・ Heroku",
@@ -55,7 +55,7 @@ $(document).ready(function(){
 	  imageUrl: "assets/img/ychoy_carpegov.png",
 	  captions: "CarpeGov",
 	  description: "Track Congressional bills on education and track actions taken on those bills.",
-	  about: "How do we address low voter turnout? How do we inspire people to get more involved? I am always thinking of ways to improve people's experiences with civic engagement. I collaborated with Weston Dombroski on this open source project to empower users to track Congressional bills on education and action items. I built CRUD functionality for users to create, edit, update and delete action items, persisted two models with MongoDB and Mongoose, and styled the frontend with Bootstrap. I collaborated with Weston to craft wireframes, entity relationship diagram and user stories.",
+	  about: "How do we inspire people to get more involved in politics? I collaborated with Weston Dombroski on this open source project to empower users to track Congressional bills on education and action items. <br><br> I built CRUD functionality for users to create, edit, update and delete action items, persisted two models with MongoDB and Mongoose, and styled the frontend with Bootstrap. I collaborated with Weston to craft wireframes, entity relationship diagram and user stories.",
     role: "Full Stack Developer",
     projectType: "Team Project",
 	  tech: "MongoDB・Mongoose・Express・Node.js・Bootstrap・HTML・CSS・jQuery・Heroku",
@@ -70,17 +70,23 @@ $(document).ready(function(){
         <div class="row">
   		    <div class="col-sm-6 col-md-6">
           <br>
+          <div class="caption">
+            <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> </h3>
+          </div>
             <div class="thumbnail">
               <a href="${projects[i].liveUrl}"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
             </div>
           </div>
           <div class="col-sm-6 col-md-6">
-            <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> <a href="${projects[i].githubUrl}"><img src="assets/img/github.png" alt="Github" class="social-icon"></a></h3>
-            <h4 style="color: darkcyan">${projects[i].description}</h4>
+            <br>
+            <br>
+            <br>
+            <h4 style: "color: darkcyan">${projects[i].description}</h4>
             <p>${projects[i].about}</p>
+            <p>Visit <a href="${projects[i].githubUrl}"><strong>Github</strong></a></p>
             <p><strong>Role: </strong>${projects[i].role}</p>
             <p><strong>Team: </strong>${projects[i].projectType}</p>
-            <p><strong>Technologies: </strong>${projects[i].tech}</p>
+            <p><strong>Tools: </strong>${projects[i].tech}</p>
           </div>
         </div>
         <br>
