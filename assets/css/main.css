@@ -1,14 +1,15 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   color: black;
 }
 
 a {
+  font-family: 'Montserrat', sans-serif;
   font-size: inherit;
   text-decoration: none;
 }
@@ -42,7 +43,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: darkslategrey;
 }
 
@@ -84,8 +85,9 @@ ul.nav a:hover { color: #f9f8fd !important; }
 /* FOOTER */
 
 footer {
-  font-size: 0.75em;
-  padding-top: 50px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1em;
+  padding-top: 10 10;
   color: #f6f5f3;
 }
 
