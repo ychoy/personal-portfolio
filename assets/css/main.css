@@ -1,10 +1,10 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
 
 body {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
 }
 
@@ -85,7 +85,7 @@ ul.nav a:hover { color: #f9f8fd !important; }
 /* FOOTER */
 
 footer {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   padding-top: 10 10;
   color: #f6f5f3;
@@ -102,7 +102,7 @@ footer {
 .profile-photo {
   display: block;
   float: both;
-  max-width: 200px;
+  max-width: 250px;
   margin: 0 auto 30px;
 	border-radius: 50%;
 }
