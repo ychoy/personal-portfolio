@@ -66,7 +66,7 @@ $(document).ready(function(){
 
   var samples = "";
 
-	for (var i = 0; i < 4; i++) {
+	for (var i = 0; i < 3; i++) {
 		samples += `
       <div class="row">
 		    <div class="col-sm-6 col-md-6">
