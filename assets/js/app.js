@@ -65,32 +65,98 @@ $(document).ready(function(){
 ]
 
   var samples = "";
-  	for (var i = 0; i < projects.length; i++) {
-  		samples += `
-        <div class="row">
-  		    <div class="col-sm-6 col-md-6">
+
+	for (var i = 0; i < 4; i++) {
+		samples += `
+      <div class="row">
+		    <div class="col-sm-6 col-md-6">
           <br>
           <div class="caption">
             <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> </h3>
           </div>
+          <div class="thumbnail">
+            <a href="${projects[i].liveUrl}"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <br>
+          <br>
+          <br>
+          <h4 style: "color: darkcyan">${projects[i].description}</h4>
+          <p>${projects[i].about}</p>
+          <p>Visit <a href="${projects[i].githubUrl}"><strong>Github</strong></a></p>
+          <p><strong>Role: </strong>${projects[i].role}</p>
+          <p><strong>Team: </strong>${projects[i].projectType}</p>
+          <p><strong>Tools: </strong>${projects[i].tech}</p>
+        </div>
+      </div>
+      <br>
+      `
+    }
+
+    samples += `
+      <div class="row">
+  		    <div class="col-sm-6 col-md-6">
+            <br>
+            <div class="caption">
+              <h3><a href="http://girlslearn.org/international-partner-schools/">Girls Learn International</a> </h3>
+            </div>
             <div class="thumbnail">
-              <a href="${projects[i].liveUrl}"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
+              <iframe class="embed-responsive-item" width="540" height="315" src="https://www.youtube.com/embed/t8rL7eyVt8s" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-sm-6 col-md-6">
             <br>
             <br>
             <br>
-            <h4 style: "color: darkcyan">${projects[i].description}</h4>
-            <p>${projects[i].about}</p>
-            <p>Visit <a href="${projects[i].githubUrl}"><strong>Github</strong></a></p>
-            <p><strong>Role: </strong>${projects[i].role}</p>
-            <p><strong>Team: </strong>${projects[i].projectType}</p>
-            <p><strong>Tools: </strong>${projects[i].tech}</p>
+            <h4 style: "color: darkcyan">Create an Appealing Call-to-Action Partner Network webpage</h4>
+            <p>Girls Learn International (GLI) is an non-profit that empowers American schools to fundraise for disadvantaged schools abroad and
+              help girls stay in school. GLI engages middle school and high school students and faculty to support global schools by
+              providing funds for supplies and classroom improvements, health and clean water and technology, arts and media.
+              At the Hactivists Unite hackathon in July 2017, GLI asked us to solve the following problems with their Partner Network page:
+              <ul>
+                <li> Webpage is dense with information and not appealing </li>
+                <li> Message is not succinct</li>
+                <li> Call to action is not clear</li>
+                <li> No existing forms for project-specific online donation</li>
+                </ul>
+            <p>We discussed features that would transform the <a href="assets/img/original_gliwebpage.png">original webpage</a> into a more dynamic and appealing user experience.
+              Jemma and James conducted user research and crafted Lo-Fi and Hi-Fi wireframes.
+              Based on the <a href="assets/img/gli_wireframes.png">wireframes</a>, I installed and implemented a WordPress plugin for the dropdown feature,
+              coded dynamic project-specific donation forms with Bootstrap and coded the new user interface with WordPress, HTML and CSS. </p>
+            <p><strong>Role: </strong>Front End Developer</p>
+            <p><strong>Team: </strong> UX/UI Designers: <a href="https://www.jemmapearce-ux.com/">Jemma Pearce</a> and James Kaguyutan, Nonprofit Partners: Ashley Steimer-King and Carmen Rios </p>
+            <p><strong>Tools: </strong> WordPress・HTML・CSS・Bootstrap</p>
           </div>
-        </div>
-        <br>
-        `
-      }
-      $(".portfolio #portfolio").append(samples);
+        </div>`
+      for (var i = 3; i < projects.length; i++) {
+    		samples += `
+          <div class="row">
+    		    <div class="col-sm-6 col-md-6">
+              <br>
+              <div class="caption">
+                <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> </h3>
+              </div>
+              <div class="thumbnail">
+                <a href="${projects[i].liveUrl}"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+              <br>
+              <br>
+              <br>
+              <h4 style: "color: darkcyan">${projects[i].description}</h4>
+              <p>${projects[i].about}</p>
+              <p>Visit <a href="${projects[i].githubUrl}"><strong>Github</strong></a></p>
+              <p><strong>Role: </strong>${projects[i].role}</p>
+              <p><strong>Team: </strong>${projects[i].projectType}</p>
+              <p><strong>Tools: </strong>${projects[i].tech}</p>
+            </div>
+          </div>
+          <br>
+          `
+        }
+
+    $(".portfolio #portfolio").append(samples);
+
 });
