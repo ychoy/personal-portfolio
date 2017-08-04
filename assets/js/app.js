@@ -43,7 +43,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_levagabond.png",
 		captions: "Le Vagabond",
 		description: "Create and share hints on your favorite cities  ",
-    about: "Le Vagabond is a web application built for a client who wanted an applicatio that allowed users to share hints about their favorite cities throughout their travels. I collaborated with Christen Williams and Auston Wilkinson to build this web app. <br><br>  I developed the CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page and user login page and incorporated user authentication. <br><br> We reviewed user experience with UX/UI designers Daniel Peck, Katie Yi, Seungjae Yun, Justin Wong, Harry Byres, and Urvi Jain. Based on feedback from our client and designers, we adjusted features to enrich user experience.",
+    about: "Le Vagabond is a web application built for a client. The web app allows users to share hints about their favorite cities throughout their travels. I collaborated with Christen Williams and Auston Wilkinson to build this web app. <br><br>  I developed the CRUD functionality for users to create, edit, delete comments to travel hints. I also developed the main dashboard page and user login page and incorporated user authentication. <br><br> We reviewed user experience with UX/UI designers Daniel Peck, Katie Yi, Seungjae Yun, Justin Wong, Harry Byres, and Urvi Jain. Based on feedback from our client and designers, we adjusted features to enrich user experience.",
     role: "Full Stack Developer",
     projectType: "Team Project",
     tech: "HTML・CSS・Bootstrap・Rails・PostgreSQL・ Heroku",
