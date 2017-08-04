@@ -120,8 +120,8 @@ $(document).ready(function(){
                 <li> No existing forms for project-specific online donation</li>
                 </ul>
             <p>We discussed features that would transform the <a href="assets/img/original_gliwebpage.png">original webpage</a> into a more dynamic and appealing user experience.
-              Based on Jemma and James' <a href="assets/img/gli_wireframes.png">wireframes</a>, redesigned the webpage to improve UX/UI with WordPress, HTML, CSS and deployed a WordPress site with a custom plugin.
-              I also built donation forms with HTML, CSS and Bootstrap.</p>
+              Based on Jemma and James' <a href="assets/img/gli_wireframes.png">wireframes</a>, redesigned the webpage to improve UX/UI with WordPress and deployed a custom plugin.
+              I also designed UI for the donation form using Salsa Labs and Bootstrap.</p>
             <p><strong>Role: </strong>Front End Developer</p>
             <p><strong>Team: </strong> UX/UI Designers: <a href="https://www.jemmapearce-ux.com/">Jemma Pearce</a> and James Kaguyutan, Nonprofit Partners: Ashley Steimer-King and Carmen Rios </p>
             <p><strong>Tools: </strong> WordPress・HTML・CSS・Bootstrap</p>
