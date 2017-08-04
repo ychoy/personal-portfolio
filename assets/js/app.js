@@ -110,8 +110,8 @@ $(document).ready(function(){
             <br>
             <br>
             <h4 style: "color: darkcyan">Create an Appealing Call-to-Action Partner Network webpage</h4>
-            <p>Girls Learn International (GLI) is an non-profit that empowers American schools to fundraise for disadvantaged schools abroad and
-              help girls stay in school. GLI engages middle school and high school students and faculty to fundraise for supplies and classroom improvements, health and clean water and technology, arts and media.
+            <p>Girls Learn International (GLI) is an non-profit that empowers American schools to fundraise to help girls stay in school abroad.
+            GLI engages middle school and high school students and faculty to fundraise for supplies and classroom improvements, health and clean water and technology, arts and media.
               At the Hactivists Unite hackathon in July 2017, GLI asked us to solve the following problems with their Partner Network page:
               <ul>
                 <li> Webpage is dense with information and not appealing </li>
@@ -120,8 +120,8 @@ $(document).ready(function(){
                 <li> No existing forms for project-specific online donation</li>
                 </ul>
             <p>We discussed features that would transform the <a href="assets/img/original_gliwebpage.png">original webpage</a> into a more dynamic and appealing user experience.
-              Jemma and James conducted user research and crafted Lo-Fi and Hi-Fi <a href="assets/img/gli_wireframes.png">wireframes</a>. I installed and implemented a WordPress plugin for the dropdown feature,
-              coded dynamic project-specific donation forms with Bootstrap and coded the new user interface with WordPress, HTML and CSS. </p>
+              Based on Jemma and James' <a href="assets/img/gli_wireframes.png">wireframes</a>, redesigned the webpage to improve UX/UI with WordPress, HTML, CSS and deployed a WordPress site with a custom plugin.
+              I also built donation forms with HTML, CSS and Bootstrap.</p>
             <p><strong>Role: </strong>Front End Developer</p>
             <p><strong>Team: </strong> UX/UI Designers: <a href="https://www.jemmapearce-ux.com/">Jemma Pearce</a> and James Kaguyutan, Nonprofit Partners: Ashley Steimer-King and Carmen Rios </p>
             <p><strong>Tools: </strong> WordPress・HTML・CSS・Bootstrap</p>
