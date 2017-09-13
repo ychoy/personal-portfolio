@@ -2,9 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Karla');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
   font-family: 'Karla', sans-serif;
   color: black;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 150;
 }
 
 a {
@@ -43,7 +50,7 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-  color: darkslategrey;
+  color: black;
 }
 
 p {
@@ -74,7 +81,7 @@ nav li {
 }
 
 nav a {
-  color: darkslategrey;
+  color: black;
   font-weight: 700;
   padding: 10px 10px;
 }
@@ -143,7 +150,7 @@ nav {
 /* links */
 
 a {
-  color: darkslategrey;
+  color: black;
 }
 
 
