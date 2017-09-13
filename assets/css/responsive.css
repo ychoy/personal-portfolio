@@ -9,15 +9,16 @@
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
   }
+
 /* Medium screens */
 @media (min-width: 992px) {
+
   .navigation {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
 
    /* PAGE: ABOUT
    */
-
   .profile-photo {
     float: left;
     margin: 0 5% 80px 0;
