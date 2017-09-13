@@ -1,6 +1,6 @@
 # Portfolio
 
-This is my portfolio showcasing my web development work here: https://ychoy.github.io/
+This is my portfolio showcasing my web development work: https://ychoy.github.io/
 
 ## Technologies
  - HTML
@@ -9,9 +9,4 @@ This is my portfolio showcasing my web development work here: https://ychoy.gith
  - jQuery
  - Bootstrap
 
-## Existing Features
-- User can read featured projects
-
-## Planned Features
-- Update with more projects
 
