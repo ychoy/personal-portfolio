@@ -1,15 +1,14 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
-
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   color: black;
 }
 
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: inherit;
   text-decoration: none;
 }
@@ -43,7 +42,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: darkslategrey;
 }
 
@@ -85,7 +84,7 @@ ul.nav a:hover { color: #f9f8fd !important; }
 /* FOOTER */
 
 footer {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 1em;
   padding-top: 10 10;
   color: #f6f5f3;
