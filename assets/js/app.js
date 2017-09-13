@@ -13,7 +13,19 @@ $(document).ready(function(){
     githubUrl: "https://github.com/ychoy/rydeshare",
 		liveUrl: "https://rydeshare.herokuapp.com"
 		},
-  {
+    {
+    imageAlt: "Renter's Rights Guide",
+    imageUrl: "assets/img/CFSJ_rentersrightsguide_app.png",
+    captions: "Renter's Rights Guide",
+    description: "Helping renters in San Jose, CA understand their rights and resources",
+    about: "Concerned about the housing crisis in Silicon Valley, I collaborated with my friends at Code for San Jose to build a web app that would help inform renters in San Jose, California about the laws and programs in place to protect them. We began by conducting user research and stakeholder engagement. After synthesizing our findings, we decided to focus on developing a prototype on tenant rights. I contributed by developing user interface and front-end with React and Rails, managing workflow, conducting user research, and engaging stakeholders. I collaborated with Matt King - Developer, Julie Kim - UX Researcher & Designer, Sanaz Jamloo - UX Researcher, and Emily Ramos - UX Researcher.",
+    role: "Developer",
+    projectType: "Team Project",
+    tech: "Rails ・React・React-on-Rails・PostgreSQL",
+    githubUrl: "https://github.com/codeforsanjose/renters-rights",
+    liveUrl: "https://renters-rights.herokuapp.com/"  
+    },
+ /* {
     imageALt: "Find A Home",
     imageUrl: "assets/img/findahome_may2017_thumbnail.png",
     captions: "Find A Home",
@@ -25,7 +37,7 @@ $(document).ready(function(){
     githubUrl: "http://github.com/codeforsanjose/findahome",
     liveUrl: "https://github.com/codeforsanjose/findahome"
     },
-
+*/
  {
 		imageAlt: "WeHuddle app screenshot",
 		imageUrl: "assets/img/ychoy_wehuddle.png",
@@ -133,10 +145,10 @@ $(document).ready(function(){
     		    <div class="col-sm-6 col-md-6">
               <br>
               <div class="caption">
-                <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> </h3>
+                <h3><a href="${projects[i].liveUrl}" target="_blank">${projects[i].captions}</a> </h3>
               </div>
               <div class="thumbnail">
-                <a href="${projects[i].liveUrl}"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
+                <a href="${projects[i].liveUrl}" target="_blank"><img class="img-responsive" src="${projects[i].imageUrl}" alt="${projects[i].imageAlt}"/></a>
               </div>
             </div>
             <div class="col-sm-6 col-md-6">
@@ -145,7 +157,7 @@ $(document).ready(function(){
               <br>
               <h4 style: "color: darkcyan">${projects[i].description}</h4>
               <p>${projects[i].about}</p>
-              <p>Visit <a href="${projects[i].githubUrl}"><strong>Github</strong></a></p>
+              <p>Visit <a href="${projects[i].githubUrl}" target="_blank"><strong>Github</strong></a></p>
               <p><strong>Role: </strong>${projects[i].role}</p>
               <p><strong>Team: </strong>${projects[i].projectType}</p>
               <p><strong>Tools: </strong>${projects[i].tech}</p>
