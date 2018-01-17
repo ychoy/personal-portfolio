@@ -1,9 +1,9 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Lato');
 
 body {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: inherit;
   text-decoration: none;
 }
@@ -90,7 +90,7 @@ ul.nav a:hover { color: #f9f8fd !important; }
 /* FOOTER */
 
 footer {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   padding-top: 10 10;
   color: #f6f5f3;
