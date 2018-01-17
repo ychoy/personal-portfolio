@@ -15,7 +15,7 @@ $(document).ready(function(){
     },
   {
     imageAlt: "Choose Your Win",
-    imageUrl: "assets/img/ChooseYourWin.png",
+    imageUrl: "assets/img/chooseyourwin.jpg",
     captions: "Choose Your Win",
     description: "Navigating issues that affect women in the workplace through an interactive game",
     about: "I collaborated with friends at Hack the Patriarchy hackathon to design and create this interactive game that allows users to navigate issues that affect women in the workplace, beginning with the hiring process. <br/><br/>I contributed to user stories, conducted research with a subject matter expert from the Women's Bureau, and designed and coded the gameplay pages with JavaScript, HTML and CSS. I worked with Thelma Boamah, Emily Ramos, Maliha Ahmed and Lorin Camargo. Our team won 'Most Original Project'! ", 
