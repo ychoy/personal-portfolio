@@ -1,6 +1,17 @@
 $(document).ready(function(){
-
   var projects = [
+  {
+    imageAlt: "Descartaê",
+    imageUrl: "assets/img/descartae.png", 
+    captions: "Descartaê Web Portal",
+    description: "Web portal for librarians to manage data about recycling and waste disposal facilities in Brazil",
+    about: "Prior to product development, our team led design thinking session with communities and libraries in Brazil. One of the winning prototypes that community members designed and pitched was Lixo Legal. Waste disposal is a huge issue in Brazil - and community members would really like to see more people empowered to recycle and dispose waste in a sustianable way. They pitched an idea for a mobile app and web portal that would empower communities in Brazil to discover what they can recycle in nearby facilities. It would also empower librarians to manage the public data on recycling and waste disposal facilities. <br/><br/>I collaborated with internal staff and multidisciplinary teams in Brazil to define and maintain project roadmap, articulating strategy to reach our goals. I work with engineer teams in Brazil to create open source solutions - iPhone and Android mobile applications and a web portal built with React, Apollo, GraphQL, Node, and MongoDB. I drive product development and lead planning meetings. I fetch data with GraphQL and attach results to the React user interfance with Apollo Client.", 
+    role: "Product Development Intern",
+    projectType: "Team Project",
+    tech: "React ・Apollo ・GraphQL・Node.js・Express・MongoDB・Material-UI",
+    githubUrl: "https://github.com/descartae/webportal",
+    liveUrl: "http://beta.descartae.com"  
+    },
   {
     imageAlt: "Renter's Rights Guide",
     imageUrl: "assets/img/CFSJ_rentersrightsguide_app.png",
