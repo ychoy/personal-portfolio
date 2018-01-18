@@ -5,8 +5,8 @@ $(document).ready(function(){
     imageUrl: "assets/img/descartae.png", 
     captions: "Descartaê Web Portal",
     description: "Web portal for librarians to manage data about recycling and waste disposal facilities in Brazil",
-    about: "Prior to product development, our team led design thinking session with communities and libraries in Brazil. One of the winning prototypes that community members designed and pitched was Lixo Legal. Waste disposal is a huge issue in Brazil - and community members would really like to see more people empowered to recycle and dispose waste in a sustianable way. They pitched an idea for a mobile app and web portal that would empower communities in Brazil to discover what they can recycle in nearby facilities. It would also empower librarians to manage the public data on recycling and waste disposal facilities. <br/><br/>I collaborated with internal staff and multidisciplinary teams in Brazil to define and maintain project roadmap, articulating strategy to reach our goals. I work with engineer teams in Brazil to create open source solutions - iPhone and Android mobile applications and a web portal built with React, Apollo, GraphQL, Node, and MongoDB. I drive product development and lead planning meetings. I fetch data with GraphQL and attach results to the React user interfance with Apollo Client.", 
-    role: "Product Development Intern",
+    about: "Prior to product development, our team led design thinking sessions with communities and libraries in Brazil. Community members designed and pitched Lixo Legal, a prototype for discovering where and what to recycle. Waste disposal is a huge issue in Brazil. People would be empowered through a mobile app to discover what they can recycle in nearby facilities. Librarians would manage the data. <br/><br/>I collaborated with internal staff and multidisciplinary teams in Brazil to define and maintain project roadmap, articulating strategy to reach our goals. I work with engineer teams in Brazil to create open source solutions - iOS and Android mobile applications and web portal. I drive product development and lead planning meetings. For the web portal, I fetch data with GraphQL and attach results to the React user interface with Apollo Client.", 
+    role: "Front End Developer & Product Development",
     projectType: "Team Project",
     tech: "React ・Apollo ・GraphQL・Node.js・Express・MongoDB・Material-UI",
     githubUrl: "https://github.com/descartae/webportal",
@@ -18,7 +18,7 @@ $(document).ready(function(){
     captions: "Renter's Rights Guide",
     description: "Helping renters in San Jose, CA understand their rights and resources",
     about: "Concerned about the afforadble housing crisis in Silicon Valley, I collaborated with my friends at Code for San Jose to build a web app that would help inform renters about their rights. <br/><br/>We began by conducting user research and stakeholder engagement. After synthesizing our findings, we developed a prototype. We continued to engage stakeholders for review and feedback. In September 2017, we launched the web application. <br/><br/>I contributed by developing user interface for the Renter's Rights pages, content for the Tenant Eviction simulation, and. I also managed workflow, recruited teammates, conducted user research, and engaged stakeholders. I collaborated with Matt King, Julie Kim, Emily Ramos, Lorin Camargo, and Sanaz Jamloo.",
-    role: "Developers and Product Manager",
+    role: "Web Developer and Product Manager",
     projectType: "Team Project",
     tech: "Rails ・React・React-on-Rails・PostgreSQL",
     githubUrl: "https://github.com/codeforsanjose/renters-rights",
@@ -112,7 +112,7 @@ $(document).ready(function(){
         </div>
         <div class="col-sm-6 col-md-6">
           <h3><a href="${projects[i].liveUrl}">${projects[i].captions}</a> </h3>
-          <h4 style: "color: darkcyan">${projects[i].description}</h4>
+          <h4 style: "color: darkcyan"><em>${projects[i].description}</em></h4>
           <p>${projects[i].about} <a href="${projects[i].githubUrl}"><i class="fa fa-github" aria-hidden="true"></i></a></p>
           <p><i class="fa fa-user" aria-hidden="true"></i> ${projects[i].role}, ${projects[i].projectType}</p>
           <p><i class="fa fa-wrench" aria-hidden="true"></i> ${projects[i].tech}</p>
