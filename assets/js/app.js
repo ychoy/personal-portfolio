@@ -5,8 +5,8 @@ $(document).ready(function(){
     imageUrl: "assets/img/descartae.png", 
     captions: "Descartaê Web Portal",
     description: "Web portal for librarians to manage data about recycling and waste disposal facilities in Brazil",
-    about: "Prior to product development, our team led design thinking sessions with communities and libraries in Brazil. Community members designed and pitched Lixo Legal, a prototype for discovering where and what to recycle. Waste disposal is a huge issue in Brazil. People would be empowered through a mobile app to discover what they can recycle in nearby facilities. Librarians would manage the data. <br/><br/>I collaborated with internal staff and multidisciplinary teams in Brazil to define and maintain project roadmap, articulating strategy to reach our goals. I work with engineer teams in Brazil to create open source solutions - iOS and Android mobile applications and web portal. I drive product development and lead planning meetings. For the web portal, I fetch data with GraphQL and attach results to the React user interface with Apollo Client.", 
-    role: "Front End Developer & Product Development",
+    about: "What if technology was driven by community members and libraries? Through Feito na Bibliota ('Made with Libraries') design thinking sessions, community members brainstormed issues and prototyped solutions. One of the winners was Lixo Legal, a prototype for discovering where and what to recycle. <br/><br/>Waste disposal is a huge issue in Brazil. Through a mobile app, people would be empowered to recycle more by finding nearby recycling facilities. Through a web application, librarians would find and manage the data. <br/><br/>I collaborated with internal staff and multidisciplinary teams in Brazil to define and maintain project roadmap, articulating strategy to reach our goals. I work with engineer teams in Brazil to create open source solutions - iOS and Android mobile applications and web portal. I design and build the web portal user interface with React, GraphQL and Apollo Client. Additionally, I drive product development meetings.", 
+    role: "Front End Developer & Product Manager",
     projectType: "Team Project",
     tech: "React ・Apollo ・GraphQL・Node.js・Express・MongoDB・Material-UI",
     githubUrl: "https://github.com/descartae/webportal",
@@ -17,8 +17,8 @@ $(document).ready(function(){
     imageUrl: "assets/img/CFSJ_rentersrightsguide_app.png",
     captions: "Renter's Rights Guide",
     description: "Helping renters in San Jose, CA understand their rights and resources",
-    about: "Concerned about the afforadble housing crisis in Silicon Valley, I collaborated with my friends at Code for San Jose to build a web app that would help inform renters about their rights. <br/><br/>We began by conducting user research and stakeholder engagement. After synthesizing our findings, we developed a prototype. We continued to engage stakeholders for review and feedback. In September 2017, we launched the web application. <br/><br/>I contributed by developing user interface for the Renter's Rights pages, content for the Tenant Eviction simulation, and. I also managed workflow, recruited teammates, conducted user research, and engaged stakeholders. I collaborated with Matt King, Julie Kim, Emily Ramos, Lorin Camargo, and Sanaz Jamloo.",
-    role: "Web Developer and Product Manager",
+    about: "Concerned about the housing crisis in Silicon Valley, I collaborated with my friends at Code for San Jose to build a web app that would help inform renters about their rights. <br/><br/>We began by conducting user research and stakeholder engagement. After synthesizing our findings, we developed a prototype. We continued to engage stakeholders for review and feedback. In September 2017, I launched Renter's Rights Guide and pitched at 2017 Innovate Your State. I've also presented a lightning talk at Brigade Congress 2017 and secured two grants for further product development. <br/><br/>I contributed by developing user interface with Rails and React. As team lead, I drive product development and planning meetings.",
+    role: "Software Engineer and Product Manager",
     projectType: "Team Project",
     tech: "Rails ・React・React-on-Rails・PostgreSQL",
     githubUrl: "https://github.com/codeforsanjose/renters-rights",
@@ -41,7 +41,7 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_rydeshare.png",
 		captions: "Rydeshare",
 		description: "Create, join and search for carpools to save time and money and reduce stress on the commute  ",
-    about: "I was inspired to build Rydeshare because of my long commute from San José to San Francisco, which was often affected by public transit issues or traffic. Rydeshare allows users to create accounts, create carpool rides as a driver, join other drivers' carpools, and filter carpool departures on a map. <br/><br/>I built CRUD fundtionality for users to create, edit, and remove their carpools. I also created CRUD functionality for users to join and leave carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map.",
+    about: "I was inspired to build Rydeshare because of my long commute from San José to San Francisco. I built CRUD fundtionality for users to create, edit, and remove their carpools. I also created functionality for users to join and leave carpools. I developed a search feature that queries Google Maps API and displays markers on a dynamic map.",
 		role: "Full Stack Developer & Designer",
     projectType: "Solo Project",
     tech: "Rails・Google Maps API・Geocoder・PostgreSQL・HTML・CSS・jQuery・Devise・Semantic UI SASS・Heroku",
@@ -53,7 +53,7 @@ $(document).ready(function(){
     imageUrl: "assets/img/findahome_may2017_thumbnail.png",
     captions: "Find A Home",
     description: "Find affordable housing near you",
-    about: "Growing up in the San Francisco Bay Area, I have noticed that rents continue to rise. I wanted to address the difficulties of finding affordable housing by building a web application to improve the process. In December 2016 I began to collaborate with Tyler Hampton and Angelique De Castro to brainstorm user stories, sprint specifications and wireframes. I collaborated with Tyler to code web scraping algorithms in Ruby to parse afforadble housing data. I collaborated with Julie Kim - UX/UI designer, Emily Ramos - Developer, Sanaz Jamloo - Developer, to conduct user research. <br/><br/>I migrated the schema with Rails Active Record and PostgreSQL. I also developed and designed the dashboard and and map markers display for affordable housing listings.",
+    about: "Concerned about the Bay Area housing crisis, I wanted to address the difficulties of finding affordable housing by building a web application to improve the process. In December 2016 I began to collaborate with Tyler Hampton and Angelique De Castro to brainstorm user stories, sprint specifications and wireframes. I collaborated with Tyler to code web scraping algorithms in Ruby to parse afforadble housing data. I collaborated with Julie Kim - UX/UI designer, Emily Ramos - Developer, Sanaz Jamloo - Developer, to conduct user research. <br/><br/>I migrated the schema with Rails Active Record and PostgreSQL. I also developed and designed the dashboard and and map markers display for affordable housing listings.",
     role: "Full Stack Developer & Project Manager",
     projectType: "Team Project",
     tech: "Rails・Ember・Node・PostgreSQL・Redis・Google Maps API・Geocoder・Semantic UI SASS",
@@ -66,13 +66,14 @@ $(document).ready(function(){
 		imageUrl: "assets/img/ychoy_wehuddle.png",
 		captions: "WeHuddle",
 		description: "Chat in real-time and empower your teams to collaborate more  ",
-    about: "I worked with Thelma Boamah and Will Kaspar to develop the real-time chat application. We wanted to learn more about Rails Action Cable and WebSockets, and create a tool that could empower teams to work better together. We consulted UX/UI designer Luke Swanson to improve user interface. <br/><br/>I developed the direct messaging feature, designed chatroom sidebar and forms, and drafted user stories and sprint specifications. I collaborated with Thelma and Will to persist two models with Rails Active Record and PostgreSQL, develop CRUD functionality for users to create, update and delete chatrooms with Action Cable and WebSockets. We also created functionality for users to create, update and remove their accounts with Devise.",
+    about: "I developed the direct messaging feature, designed chatroom sidebar and forms, and drafted user stories and sprint specifications. I pair programmed with developers to persist two models with Rails Active Record and PostgreSQL, develop CRUD functionality for users to create, update and delete chatrooms with Action Cable and WebSockets, and user authentication with Devise.",
     role: "Full Stack Developer",
     projectType: "Team Project",
     tech: "HTML・CSS・jQuery・Semantic UI・ Rails・Action Cable・WebSockets・Devise・Carrierwave・PostgreSQL・rSpec Rails・Heroku",
 		githubUrl: "https://github.com/ychoy/wehuddle",
 		liveUrl: "https://wehuddle.herokuapp.com"
 		},
+/*
   {
 		imageAlt: "Le Vagabond app screenshot",
 		imageUrl: "assets/img/ychoy_levagabond.png",
@@ -97,7 +98,7 @@ $(document).ready(function(){
 	  githubUrl: "https://github.com/ychoy/carpe-gov",
 	  liveUrl: "https://carpegov.herokuapp.com"
 	  }
-
+*/
 ]
 
   var samples = "";
