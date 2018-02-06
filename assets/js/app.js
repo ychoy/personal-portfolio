@@ -17,7 +17,7 @@ $(document).ready(function(){
     imageUrl: "assets/img/CFSJ_rentersrightsguide_app.png",
     captions: "Renter's Rights Guide",
     description: "Helping renters in San Jose, CA understand their rights and resources",
-    about: "Concerned about the housing crisis in Silicon Valley, I collaborated with my friends at Code for San Jose to build a web app that would help inform renters about their rights. <br/><br/>We began by conducting user research and stakeholder engagement. After synthesizing our findings, we developed a prototype. We continued to engage stakeholders for review and feedback. In September 2017, I launched Renter's Rights Guide and pitched at 2017 Innovate Your State. I've also presented a lightning talk at Brigade Congress 2017 and secured two grants for further product development. <br/><br/>I contributed by developing user interface with Rails and React. As team lead, I drive product development and planning meetings.",
+    about: "Concerned about the housing crisis in Silicon Valley, I collaborated with my friends at Code for San Jose to build a web app that would help inform renters about their rights. <br/><br/>I led a team of developers and UX researchers to conduct user research, testing, and stakeholder engagement. I designed and developed the user interface with Rails and React. As team lead, I drive product development and planning meetings. <br/><br/> Since launching in September 2017, I have presented at Innovate Your State and Brigade Congress. I also secured two grants from the Awesome Foundation and the San Jose Mayor's Office.",
     role: "Software Engineer and Product Manager",
     projectType: "Team Project",
     tech: "Rails ・React・React-on-Rails・PostgreSQL",
