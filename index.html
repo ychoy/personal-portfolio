@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Yan-Yin Choy's Portfolio</title>
+  <title>Yan-Yin Choy Portfolio</title>
   <!-- meta -->
   <meta charset="utf-8" />
-  <meta name="description" content="Yan-Yin Choy is a multidiscipled software engineer with a focus on leading teams and building products that transform the way we connect, collaborate and access resources."
+  <meta name="description" content="Yan-Yin Choy is software engineer with a focus on user-centered design and product development. Yan-Yin's mission is to leverage technology to make the world a better place."
   <meta name="author" content="Yan-Yin Choy">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <!-- mobile -->
@@ -21,156 +21,160 @@
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="application/javascript" src="assets/js/app.js"></script>
   <script src="https://use.fontawesome.com/75b06c0083.js"></script>
 
 </head>
+<body>
 	<!-- Header -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Projects</a></li>
-        <li><a href="assets/img/yanyinchoy_resume.pdf" download>Resumé</a></li>
-      </ul>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Yan-Yin Choy Portfolio</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#public-speaking">Public Speaking</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="https://medium.com/@yanyinchoy" target="_blank">Blog</a></li>
+            <li><a href="assets/img/yanyinchoy_resume.pdf" download>Resumé</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
   </header>
-
- <!-- About Section -->
-    <div class="container">
+ <!-- Profile Photo -->
+    <div class="jumbotron">
       <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-5">
           <section id="profile-photo">
             <img class="img-responsive profile-photo" src="assets/img/YanYinChoy_1.png" alt="Photograph of Yan-Yin Choy">
-            <h2 class="text-center"><strong> Yan-Yin Choy </strong></h2>
-            <h3 class="text-center"> Software Engineer</h3>
           </section>
-          <p/>
-          <section id="contact">
-            <ul class="list-inline text-center">
-              <li><i class="fa fa-map-marker"></i> San José, California</a></li>
-              <br/>
-              <li><a href="mailto:yanyinchoy@gmail.com"><i class="fa fa-envelope"></i></a></li>
-              <li><a href="http://linkedin.com/in/yanyinchoy" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="http://github.com/ychoy" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li><a href="assets/img/yanyinchoy_resume.pdf" download><i class="fa fa-file"></i></a></li>
-            </ul>
-          </section>
-         </div>
-         <div class="col-xs-12 col-sm-6 col-md-7">
-          <section id="about">
+          <section id="intro">
+            <h1 class="text-center"><strong> Yan-Yin Choy </strong></h1>
+            <h2 class="text-center"> Software Engineer</h2>
+            <p class="text-center"><i class="fa fa-map-marker"></i> San José, California</p>
             <p class="text-center">
-            Hi! I am a multi-disciplined software engineer with a focus on building products that solve problems. I work strategically with cross-functional teams to create web applications. I am driven to learn quickly and make sustainable impact. This is what I love to do, and I am interested in doing this for you.
-            </p>
-            <p class="text-center">
-            For the past five months, I have been at Caravan Studios. As a Product Development Intern, I evaluated stakeholder needs and conceptualized product specifications. I collaborated with engineers in Brazil to build an open source web portal for librarians to manage data on recycling facilities. I lead planning meetings and help the team strategize.</p>
-            <p class="text-center">Over the last decade, I leveraged my effective communications and leadership skills to manage entrepreneurial teams and deliver. I have been volunteering with Code for San José for the past four years. As Brigade Captain, I coordinate bi-weekly Civic Hack meetings and led a team to launch Renter’s Rights Guide web app. As a former nonprofit manager, I facilitated product development and programs to innovate government services.
-            </p>
-            <p class="text-center">
-            Interested in collaborating? Let's <a href="mailto:yanyinchoy@gmail.com">connect</a>!
+            Hi! I’m a software engineer with a focus on user-centered design and product development. <br/>
+            I’m a versatile leader that values team work, problem solving and results. <br/>
+            My mission is to leverage technology to make the world a better place.
             </p>
           </section>
       </div>
-     </div>
     </div>
 
-        <section id="skills">
-          <h3> Skills </h3>
-          <p><strong>Languages:</strong> JavaScript, Ruby, GraphQL, HTML, CSS, Sass</p>
-
-          <p><strong>Frameworks:</strong> Rails, Node.js, Express, React</p>
-
-          <p><strong>Databases:</strong> MongoDB, PostgreSQL, SQL</p>
-
-          <p><strong>Design:</strong> Wireframing, Multimedia Design, Balsamiq, Bootstrap, Semantic UI, Material UI, Canva </p>
-
-          <p><strong>Leadership:</strong> Strategy, Agile Product Development, Product Development, Project Management, Public Speaking, Strong Communications, Fundraising, Grantwriting</p>
-          
-          <p><strong>Tools & More:</strong> Heroku, Docker, Git, jQuery, Jekyll, GatsbyJS, WordPress</p>
-
-        </section>
-        <section id="speaking-and-awards">
-          <h3> Awards & Speaking </h3>
-          <p><strong>Most Original Project, </strong> Hack the Patriarchy, October 2017 </p>
-
-          <p><strong>Lightning Talk: Renter's Rights Guide, </strong> Brigade Congress, Code for America, October 2017 </p>
-
-          <p><strong>Renter's Rights Guide,</strong> Civic Gov & Tech Showcase, Innovate Your State, September 2017 </p>
-
-          <p><strong>Honorable Mention, </strong> CTRL ALT DELETE HATE Hackathon, April 2017</p>
-          
-          <p><strong>VTA Rewards App, </strong>VTA Hack My Ride, November 2015</p>
-
-          <p><strong>Lee Sturtevant 'Woman Warrior' Award,</strong> DAWN, Aug 2015</p>
-
-        </section>
-
-    </div>
-    <!-- Portfolio -->
+ <!-- Projects -->
     <div class="container">
-      <div class="portfolio">
-  	    <section id="portfolio">
-        <h3> Portfolio </h3>
-		    </section>
-      </div>
-    </div>
-
-    <!-- Design -->
-    <div class="container">
-      <div class="design">
-        <section id="design">
-          <h3> Web Design </h3>
-          
-          <div class="row">
-    		    <div class="col-md-6">
-              <div class="thumbnail">
-                <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/t8rL7eyVt8s" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="caption">
-                <h3><a href="http://girlslearn.org/international-partner-schools/">Girls Learn International</a> </h3>
-                <em>I redesigned the webpage to improve UX/UI with WordPress and deployed a custom plugin. I also designed UI for the donation form using Salsa Labs and Bootstrap.</em>
-              </div>
-            </div>
-          </div>
-          <br/>
-          <div class="row">
-           <div class="col-md-6">
-              <div class="thumbnail">
-                <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/iA-kZJ6ypAM" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="caption">
-                <h3><a href="http://www.svtpca.org">Silicon Valley Talent Partnership Website</a> </h3>
-                <em>Redesign website to improve user interface and experience with WordPress, HTML, CSS</em>
-              </div>
-            </div>
-          </div>
-          <br/>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="thumbnail">
-                <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/zwMW5CcyC5I" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="caption">
-                <h3><a href="https://cucsj.org">CommUniverCity San José Website Demo</a> </h3>
-                <em>Redesign website to improve user interface and experience, migrating from Joomla to WordPress. </em>
-              </div>
-            </div>
-          </div>
-        </div> 
+      <div class="projects">
+  	    <section id="projects">
+        <br/>
+        <br/>
+		    <h2> Projects </h2>
         </section>
       </div>
+    </div>
+<!-- Speaking --> 
+    <div class="container">
+      <section id="public-speaking">
+        <br/><br/>
+        <h2> Public Speaking </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="thumbnail">
+              <img class="img-responsive" src="assets/img/cfa_brigadecongress_yanyinchoy_lightningtalk_oct2017.jpg" alt="Yan Yin Choy lightning talk at Brigade Congress 2017">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3> Lightning Talk: Renter's Rights Guide</h3>
+            <h4> Brigade Congress</h4>
+            <p>Code for America</p>
+            <em> Philadelphia, Pennsylvania</em><br/>
+            <em> October 2017</em>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="thumbnail">
+              <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/nF9yrnqfsRQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3> Pitch: Renter's Rights Guide</h3>
+            <h4> Civic Gov & Tech Showcase</h4>
+            <p> Innovate Your State</p>
+            <em> San Jose, California </em><br/>
+            <em> September  2017</em>
+          </div>
+        </div>
+      </section>
+    </div>
+
+ <!-- About -->
+    <div class="container">
+      <section id="about">
+        <br/>
+        <br/>
+        <h2>About</h2>
+        <p>
+        Hi! I’m Yan-Yin Choy,  a software engineer with a focus on user-centered design and product development. I’m a versatile leader that values team work, problem solving and results. My mission is to leverage technology to make the world a better place.
+        </p>
+        <p>
+        At Caravan Studios, I manage product development. I also collaborate with engineers in Brazil to develop an open source web portal for librarians to manage data on recycling facilities. As Captain of Code for San José, I use technology to bridge the gap between the public and government. Here, I led a team to launch a web app, Renter’s Rights Guide.
+        </p>
+        <p>
+        As a former nonprofit manager, I facilitated product development, programs and interns. As Director of New Leaders Council Silicon Valley, I executed fundraising strategy and leadership development for young leaders. I graduated from San José State University and General Assembly. When I’m not coding, I enjoy hiking, dancing and art.
+        </p>
+        <p>
+        Interested in collaborating? View my <a href="assets/img/yanyinchoy_resume.pdf">resume</a>.  Let's <a href="mailto:yanyinchoy@gmail.com">connect</a>!
+        </p>
+        <br/>
+        <h4>Awards</h4>
+        <p><strong>Most Original Project, </strong> Hack the Patriarchy, October 2017 </p>
+        <p><strong>Honorable Mention, </strong> CTRL ALT DELETE HATE Hackathon, April 2017</p>
+        <p><strong>Lee Sturtevant 'Woman Warrior' Award,</strong> DAWN, Aug 2015</p>
+      </section>
+    </div>
+
+<!--Skills-->
+    <div class="container">
+      <section id="skills">
+        <h2> Skills </h2>
+        <p><strong>Languages:</strong> JavaScript, Ruby, GraphQL, HTML, CSS, Sass</p>
+
+        <p><strong>Frameworks:</strong> Rails, Node.js, Express, React</p>
+
+        <p><strong>Databases:</strong> MongoDB, PostgreSQL, SQL</p>
+
+        <p><strong>Design:</strong> Wireframing, Multimedia Design, Balsamiq, Bootstrap, Semantic UI, Material UI, Canva </p>
+
+        <p><strong>Leadership:</strong> Strategy, Agile Product Development, Product Development, Project Management, Public Speaking, Strong Communications, Fundraising, Grantwriting</p>
+        
+        <p><strong>Tools & More:</strong> Heroku, Docker, Git, jQuery, Jekyll, GatsbyJS, WordPress</p>
+      </section>
     </div>
 </body>
-<div class="panel-footer">
-  <div class ="text-center text-muted">
+<div class="jumbotron">
+  <div class ="text-center">
     <section id="contact">
+       <h3>Let's Connect!</h3>
        <ul class="list-inline">
-        <li><a href="mailto:yanyinchoy@gmail.com"><i class="fa fa-envelope"></i></a></li>  
-        <li><a href="http://linkedin.com/in/yanyinchoy"><i class="fa fa-linkedin"></i></a></li>  
-        <li><a href="http://github.com/ychoy"><i class="fa fa-github"></i></a></li>   
-        <li><a href="http://twitter.com/yanyinchoy"><i class="fa fa-twitter"></i></a></li>  
-        <li><a href="assets/img/yanyinchoy_resume.pdf"><i class="fa fa-file"></i></a></li>
+        <li><a href="mailto:yanyinchoy@gmail.com"><i class="fa fa-envelope fa-3x"></i></a></li>  
+        <li><a href="http://linkedin.com/in/yanyinchoy"><i class="fa fa-linkedin fa-3x"></i></a></li>  
+        <li><a href="http://github.com/ychoy"><i class="fa fa-github fa-3x"></i></a></li>   
+        <li><a href="http://twitter.com/yanyinchoy"><i class="fa fa-twitter fa-3x"></i></a></li>  
        </ul>
     </section>
     &copy; 2017 Yan-Yin Choy
