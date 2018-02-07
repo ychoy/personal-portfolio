@@ -123,6 +123,11 @@ $(document).ready(function(){
       `
     }
 
-    $(".portfolio #portfolio").append(samples);
+    $(".projects #projects").append(samples);
+});
 
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
 });
