@@ -3,14 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Lato');
 
 body {
+  padding-top: 50px; 
   font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 20px;
-  font-weight: 150;
+  font-weight: 100;
 }
 
 a {
@@ -32,15 +33,8 @@ img {
     max-height: 100%;
 }
 
-/* Heading
- */
+/* Heading */
 
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 0 0 0 0;
-  width: 100%;
-}
 
 #logo {
   text-align: center;
@@ -60,32 +54,32 @@ li {
   font-size: 120%;
 }
 
+.profile {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /* NAVIGATION */
 
-nav {
-  text-align: right;
-  padding: 10px 0;
-  margin: 5px 0 0;
+.navbar-default .navbar-brand {
+  color: white;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
 }
 
-nav li {
-  display: inline-block;
+.navbar-default .navbar-nav>li>a {
+  color: white; 
 }
 
-nav a {
-  color: black;
-  font-weight: 700;
-  padding: 10px 10px;
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #009FB7;
 }
 
-ul.nav a:hover { color: #f9f8fd !important; }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: yellow;
+}
 
 /* FOOTER */
 
@@ -134,21 +128,20 @@ body {
   background-color: white;
 }
 
-header {
-  background: #7acfd6;
+.navbar {
+  background: #009FB7;
 }
 
 /* nav background on mobile */
-nav {
-  background: #7acfd6;
-
+.navbar {
+  background: #009FB7;
 }
 
 
 /* links */
 
 a {
-  color: black;
+  color: #009FB7;
 }
 
 
