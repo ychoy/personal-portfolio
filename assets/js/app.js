@@ -19,7 +19,7 @@ $(document).ready(function(){
     description: "Custom animations based on custom greeting and local date and time",
     about: "I built an API for a custom greeting based on local date and time, and the user's country. I also created a custom animation that displays an animated sun and sky depending on the custom greeting and local time and date. I built this project to learn how to set up continuous integration, coverage reporting and Docker. I also wanted to improve my skills in REST API development and TDD.",
     role: "Software Engineer",
-    productType: "Solo Project",
+    projectType: "Team Project",
     tech: "Node.js ・Express ・React ・Docker ・Travis CI ・Coveralls ・Jest ・Jasmine ・ip2countrify ・public-ip",
     githubUrl: "https://github.com/yyz-engine/yyz-engine"
   },
