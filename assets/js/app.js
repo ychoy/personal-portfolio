@@ -21,7 +21,8 @@ $(document).ready(function(){
     role: "Software Engineer",
     projectType: "Team Project",
     tech: "Node.js ・Express ・React ・Docker ・Travis CI ・Coveralls ・Jest ・Jasmine ・ip2countrify ・public-ip",
-    githubUrl: "https://github.com/yyz-engine/yyz-engine"
+    githubUrl: "https://github.com/yyz-engine/yyz-engine",
+    liveUrl: "https://github.com/yyz-engine/yyz-engine",
   },
   {
     imageAlt: "Renter's Rights Guide",
