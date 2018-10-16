@@ -10,7 +10,7 @@ $(document).ready(function(){
     projectType: "Team Project",
     tech: "React ・Apollo ・GraphQL・Node.js・Express・MongoDB・Material-UI",
     githubUrl: "https://github.com/descartae/webportal",
-    liveUrl: "http://beta.descartae.com"  
+    liveUrl: "https://webportal.descartae.com/"  
     },
   {
     imageAlt: "YYZ Engine - Hello World", 
@@ -21,8 +21,8 @@ $(document).ready(function(){
     role: "Software Engineer",
     projectType: "Team Project",
     tech: "Node.js ・Express ・React ・Docker ・Travis CI ・Coveralls ・Jest ・Jasmine ・ip2countrify ・public-ip",
-    githubUrl: "https://github.com/yyz-engine/yyz-engine",
-    liveUrl: "https://github.com/yyz-engine/yyz-engine",
+    githubUrl: "https://github.com/yyz-engine/hello-world",
+    liveUrl: "https://github.com/yyz-engine/hello-world",
   },
   {
     imageAlt: "Renter's Rights Guide",
